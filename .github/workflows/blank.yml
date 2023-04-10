@@ -2,11 +2,12 @@ name: flow1
 on: 
   workflow_dispatch:
   push:
-  #  branches: [ "draft" ]
-  #pull_request:
-  #  branches: [ "draft" ]
+    branches: [ "draft" ]
+  pull_request:
+    branches: [ "draft" ]
   schedule:
     - cron: '0 22 * * 1-5'
+    - cron: '0 */1 * * 1-5'
 
 permissions:
   contents: write
