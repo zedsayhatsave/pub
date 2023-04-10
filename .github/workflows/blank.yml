@@ -1,6 +1,6 @@
 name: CI
 on:
-  #push:
+  push:
   #  branches: [ "draft" ]
   #pull_request:
   #  branches: [ "draft" ]
