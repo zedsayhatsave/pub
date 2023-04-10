@@ -1,7 +1,7 @@
 name: CI
 on:
-  # push:
-  #  branches: [ "draft" ]
+  push:
+    branches: [ "draft" ]
   #pull_request:
   #  branches: [ "draft" ]
   workflow_dispatch:
