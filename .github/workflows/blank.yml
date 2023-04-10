@@ -1,10 +1,13 @@
 name: CI
 on:
-  push:
+  # push:
   #  branches: [ "draft" ]
   #pull_request:
   #  branches: [ "draft" ]
   workflow_dispatch:
+    inputs:
+      parameter:
+        description: dummy param
   schedule:
     - cron: '0 22 * * 1-5'
 
