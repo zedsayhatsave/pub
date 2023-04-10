@@ -4,6 +4,7 @@ on:
   #  branches: [ "draft" ]
   #pull_request:
   #  branches: [ "draft" ]
+  workflow_dispatch:
   schedule:
     - cron: '0 22 * * 1-5'
 
