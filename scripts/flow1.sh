@@ -75,8 +75,13 @@ git_clean() {
 
 which_check
 git_config
+git commit -am 
+git push
+
+if false; then
 # git_test_report_update_push
 git_sparse_checkout_work
 work
 git_update_push_work
 git_clean
+fi
