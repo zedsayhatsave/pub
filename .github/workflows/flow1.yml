@@ -34,5 +34,7 @@ jobs:
 
       - name: Run a multi-line script
         run: |
-          chmod +x ./scripts/flow1.sh
+          # chmod +x ./scripts/flow1.sh
+          # git commit -am .
+          # git push
           ./scripts/flow1.sh
