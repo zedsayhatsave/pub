@@ -13,8 +13,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-        # with:
-        #   ref: draft0
+        with:
+          ref: draft
 
       #- name: Send greeting
       #  run: echo "Hello ${{ github.event.inputs.name }}"
@@ -58,5 +58,5 @@ jobs:
           git commit -am .
           git push origin draft1
           
-          # git checkout draft0
+          # git checkout draft
           # git status
