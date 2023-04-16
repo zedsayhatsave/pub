@@ -14,7 +14,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          ref: main
+          ref: draft1
 
       #- name: Send greeting
       #  run: echo "Hello ${{ github.event.inputs.name }}"
@@ -33,7 +33,7 @@ jobs:
           echo $WD > report.txt
           git add report.txt
           git commit -am .
-          git push
+          git push draft1
                     
           
           git branch
@@ -53,8 +53,8 @@ jobs:
           git add $WD/report.txt --sparse
           git status
           git commit -am .
-          git push
+          git push draft1
           
-          git checkout main
+          git checkout draft1
           git status
           
