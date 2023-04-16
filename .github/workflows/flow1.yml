@@ -1,12 +1,19 @@
 name: draft0 flow1
 on:
-  workflow_dispatch:
+  # workflow_dispatch:
     #inputs:
     #  name:
     #    description: 'Person to greet'
     #    default: 'World'
     #    required: true
-
+  push:
+    branches: [ "draft0" ]
+  pull_request:
+    branches: [ "draft0" ]
+  #schedule:
+  #  - cron: '0 22 * * 1-5'
+  #  - cron: '0 */1 * * 1-5'
+    
 permissions:
   contents: write
   
@@ -55,7 +62,10 @@ jobs:
           
           echo WD: $WD
           mkdir $WD
-          echo $WD > $WD/report.txt
+          cd $WD
+          echo $WD > report.txt
+          ../flow1.sh
+          
           git add $WD/report.txt --sparse
           git status
           git commit -am .
