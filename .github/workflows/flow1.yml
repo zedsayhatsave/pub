@@ -34,3 +34,13 @@ jobs:
           git add report.txt
           git commit -am .
           git push
+          
+          git fetch origin draft1
+          git branch draft1 origin/draft1
+          git checkout draft1
+          date +%Y%m%d_%H%M%S > report.txt
+          git add report.txt
+          git commit -am .
+          git push origin draft1
+          
+          
