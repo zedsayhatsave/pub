@@ -75,10 +75,8 @@ git_clean() {
 
 which_check
 git_config
-git commit -am .
-git push
 
-if false; then
+if true; then
 # git_test_report_update_push
 git_sparse_checkout_work
 work
