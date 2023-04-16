@@ -14,7 +14,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          ref: draft1
+          ref: main
 
       #- name: Send greeting
       #  run: echo "Hello ${{ github.event.inputs.name }}"
@@ -26,15 +26,16 @@ jobs:
         run: |          
           set -x
           WD=$(date +%Y%m%d_%H%M%S)          
+                    
           git branch
           git status
           git config user.name 'action'
           git config user.email 'action'
-          echo $WD > report.txt
-          git add report.txt
-          git commit -am .
-          git push origin draft1
-                    
+          
+          # echo $WD > report.txt
+          # git add report.txt
+          # git commit -am .
+          # git push origin main                    
           
           git branch
           git status
@@ -55,6 +56,6 @@ jobs:
           git commit -am .
           git push origin draft1
           
-          git checkout draft1
+          git checkout main
           git status
           
