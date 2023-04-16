@@ -64,7 +64,7 @@ jobs:
           mkdir $WD
           cd $WD
           echo $WD > report.txt
-          ../flow1.sh
+          ../scripts/flow1.sh
           
           git add $WD/report.txt --sparse
           git status
