@@ -56,6 +56,7 @@ work() {
  mkdir $WD
  cd $WD
  echo $WD > report.txt
+ cd ..
 }
 
 
@@ -77,9 +78,9 @@ which_check
 git_config
 
 if true; then
-# git_test_report_update_push
-git_sparse_checkout_work
-work
-git_update_push_work
-git_clean
+ # git_test_report_update_push
+ git_sparse_checkout_work
+ work
+ git_update_push_work
+ git_clean
 fi
