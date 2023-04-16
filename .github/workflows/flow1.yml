@@ -34,5 +34,4 @@ jobs:
 
       - name: Run a multi-line script
         run: |
-          find .  
-          # ../scripts/flow1.sh
+          ./scripts/flow1.sh
