@@ -33,6 +33,7 @@ jobs:
           echo $WD > report.txt
           git add report.txt
           git commit -am .
+          git push
                     
           
           git branch
