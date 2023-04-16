@@ -1,4 +1,4 @@
-name: Manual workflow
+name: Manual workflow (flow2)
 on:
   workflow_dispatch:
     #inputs:
@@ -24,6 +24,17 @@ jobs:
 
       - name: Run a multi-line script
         run: |          
+          set -x
+          WD=$(date +%Y%m%d_%H%M%S)          
+          git branch
+          git status
+          git config user.name 'action'
+          git config user.email 'action'
+          echo $WD > report.txt
+          git add report.txt
+          git commit -am .
+                    
+          
           git branch
           git status
           ls
@@ -35,14 +46,14 @@ jobs:
           ls
           git status
           
-          WD=$(date +%Y%m%d_%H%M%S)
           echo WD: $WD
           mkdir $WD          
           echo $WD > $WD/report.txt
           git add $WD/report.txt --sparse
           git status
-          git config user.name 'action'
-          git config user.email 'action'
           git commit -am .
           git push
+          
+          git checkout main
+          git status
           
