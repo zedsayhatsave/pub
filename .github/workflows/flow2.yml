@@ -1,11 +1,11 @@
 name: Manual workflow
 on:
   workflow_dispatch:
-    inputs:
-      name:
-        description: 'Person to greet'
-        default: 'World'
-        required: true
+    #inputs:
+    #  name:
+    #    description: 'Person to greet'
+    #    default: 'World'
+    #    required: true
 
 jobs:
   greet:
@@ -14,10 +14,10 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          ref: master
+          ref: main
 
-      - name: Send greeting
-        run: echo "Hello ${{ github.event.inputs.name }}"
+      #- name: Send greeting
+      #  run: echo "Hello ${{ github.event.inputs.name }}"
 
       - name: Run a one-line script
         run: echo Hello, world!        
