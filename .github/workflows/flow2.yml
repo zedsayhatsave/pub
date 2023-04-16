@@ -33,7 +33,7 @@ jobs:
           echo $WD > report.txt
           git add report.txt
           git commit -am .
-          git push draft1
+          git push origin draft1
                     
           
           git branch
@@ -53,7 +53,7 @@ jobs:
           git add $WD/report.txt --sparse
           git status
           git commit -am .
-          git push draft1
+          git push origin draft1
           
           git checkout draft1
           git status
