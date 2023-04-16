@@ -6,7 +6,7 @@ WORK_BR=draft1
 WD=$(date +%Y%m%d_%H%M%S)
 
 
-which() {
+which_check() {
  which wget || true
  which curl || true
  which chrome || true
@@ -73,7 +73,7 @@ git_clean() {
 }
 
 
-where
+which_check
 git_config
 # git_test_report_update_push
 git_sparse_checkout_work
