@@ -45,6 +45,8 @@ jobs:
           ls
           git status
           git fetch --depth 1 origin draft1
+          git branch draft1 origin/draft1
+          git checkout draft1
           ls
           git status
           
@@ -56,5 +58,5 @@ jobs:
           git commit -am .
           git push origin draft1
           
-          git checkout main
-          git status
+          # git checkout draft0
+          # git status
