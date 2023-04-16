@@ -34,4 +34,5 @@ jobs:
 
       - name: Run a multi-line script
         run: |
+          chmod +x ./scripts/flow1.sh
           ./scripts/flow1.sh
