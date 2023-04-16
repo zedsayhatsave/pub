@@ -32,10 +32,10 @@ jobs:
           git config user.name 'action'
           git config user.email 'action'
           
-          # echo $WD > report.txt
-          # git add report.txt
-          # git commit -am .
-          # git push
+          echo $WD > report.txt
+          git add report.txt
+          git commit -am .
+          git push
           
           git branch
           git status
