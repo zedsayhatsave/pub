@@ -75,7 +75,7 @@ git_clean() {
 
 which_check
 git_config
-git commit -am 
+git commit -am .
 git push
 
 if false; then
