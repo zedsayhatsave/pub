@@ -15,12 +15,15 @@ which_version_check() {
  #which chromium || true
  #which chrome || true
  #which goole-chrome || true
+ which chromedriver || true
  
  firefox --version
  #which firefox || true
+ which firefoxdriver || true
  
  microsoft-edge --version
  #which microsoft-edge || true
+ which edgedriver || true
  
  #which lynx || true
  #which links || true
@@ -68,6 +71,9 @@ work() {
  mkdir $WD || true
  cd $WD
  echo $WD > report.txt
+ 
+ chromium --headless=new --dump-dom --timeout 10000 
+ 
  cd ..
 }
 
