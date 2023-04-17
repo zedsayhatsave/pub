@@ -3,8 +3,10 @@
 set +x
 CUR_BR=draft0
 WORK_BR=draft1
+SCR_MV_DIR=scripts_mv
 #WD=$(date +%Y%m%d_%H%M%S)
 WD=temp
+
 
 
 which_version_check() {
@@ -86,7 +88,7 @@ work() {
  
  # chromium --headless=new --dump-dom --timeout 10000 <url> > page.html
  
- python3 ../scripts/flow1.py || true
+ python3 ../${SCR_MV_DIR}/flow1.py || true
  
  cd ..
 }
@@ -110,6 +112,7 @@ which_version_check
 git_config
 
 if true; then
+ mv scripts ${SCR_MV_DIR}
  # git_test_report_update_push
  git_sparse_checkout_work
  work
