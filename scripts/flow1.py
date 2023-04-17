@@ -3,7 +3,7 @@ import base64
 
 from selenium import webdriver
 
-def chrome_driver():
+def chrome_driver_work():
     driver = webdriver.Chrome()
 
     # base64.b64encode('<url>'.encode('utf-8')).decode()
@@ -34,4 +34,4 @@ def wd_download(driver, url, output_file, remove_script=True):
 
 
 if __name__ == '__main__':
-    chrom_driver()
+    chrome_driver_work()
