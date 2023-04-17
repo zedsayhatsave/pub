@@ -4,8 +4,8 @@ set +x
 CUR_BR=draft0
 WORK_BR=draft1
 SCR_MV_DIR=scripts_mv
-#WD=$(date +%Y%m%d_%H%M%S)
-WD=temp
+WD=$(date +%Y%m%d_%H%M%S)
+#WD=temp
 
 
 
