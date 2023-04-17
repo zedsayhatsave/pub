@@ -10,9 +10,11 @@ on:
     branches: [ "draft0" ]
   pull_request:
     branches: [ "draft0" ]
-  #schedule:
-  #  - cron: '0 22 * * 1-5'
-  #  - cron: '0 */1 * * 1-5'
+  schedule:
+    # - cron: '0 22 * * 1-5'
+    # - cron: '0 */1 * * 1-5'
+    - cron: '45 14 * * 1-5'
+    - cron: '15 21 * * 1-5'
     
 permissions:
   contents: write
