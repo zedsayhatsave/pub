@@ -54,7 +54,7 @@ def get_element_html(driver, selector):
             html += elements[i].outerHTML;
         }
         return html;
-    """    
+    """ % selector
     return driver.execute_script(script)
 
 
