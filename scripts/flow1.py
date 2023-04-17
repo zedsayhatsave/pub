@@ -32,7 +32,7 @@ def wd_download(driver, url, output_file, remove_script=True):
         f.write(driver.page_source)
 
 
-def remove_element(driver, selectors)
+def remove_element(driver, selectors):
     #element = driver.execute_script("return document.querySelector('h1')")
     #driver.execute_script("arguments[0].setAttribute('style', 'color: red')", element)
     for selector in selectors:
