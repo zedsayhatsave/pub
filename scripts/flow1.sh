@@ -39,7 +39,7 @@ which_version_check() {
  #which w3m || true
  
  python3 --version
- pip3 --list
+ pip3 list
  
 export CHROMEWEBDRIVER
 export EDGEWEBDRIVER
