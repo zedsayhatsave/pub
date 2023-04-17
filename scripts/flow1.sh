@@ -23,7 +23,7 @@ which_version_check() {
  #which chromedriver || true
  
  firefox --version
- geckodriver --versoin
+ geckodriver --version
  #which firefox || true
  #which firefoxdriver || true
  #which geckodriver || true
@@ -39,7 +39,7 @@ which_version_check() {
  #which w3m || true
  
  python3 --version
- 
+ pip3 --list
  
 export CHROMEWEBDRIVER
 export EDGEWEBDRIVER
