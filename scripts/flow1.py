@@ -36,12 +36,13 @@ def remove_element(driver, selectors):
     #element = driver.execute_script("return document.querySelector('h1')")
     #driver.execute_script("arguments[0].setAttribute('style', 'color: red')", element)
     for selector in selectors:
-        driver.execute_script("""
+        script = """
             var elements = document.querySelectorAll("{selector}");
             for (var i = 0; i < elements.length; i++) {
                 elements[i].remove();
             }
-            """).format(selector=selector)
+            """.format(selector=selector)
+        driver.execute_script(script)
         
         
 if __name__ == '__main__':
