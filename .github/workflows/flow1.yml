@@ -6,10 +6,10 @@ on:
     #    description: 'Person to greet'
     #    default: 'World'
     #    required: true
-  push:
-    branches: [ "draft0" ]
-  pull_request:
-    branches: [ "draft0" ]
+  # push:
+  #   branches: [ "draft0" ]
+  # pull_request:
+  #   branches: [ "draft0" ]
   #schedule:
     ## - cron: '0 22 * * 1-5'
     ## - cron: '0 */1 * * 1-5'
