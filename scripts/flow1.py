@@ -2,11 +2,13 @@ import os
 import base64
 
 from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+
 
 def chrome_driver_work():
-    options = webdriver.ChromeOptions()
-    options.setBinary("/usr/bin/chromium");
-    driver = webdriver.Chrome(options=options)
+    options = Options()
+    options.binary_location = '/usr/bin/chromium'
+    driver = webdriver.Chrome(options=options)  # executable_path='/path/to/chromedriver
 
     # base64.b64encode('<url>'.encode('utf-8')).decode()
     wd_download(driver, decode64('aHR0cHM6Ly93d3cubWFya2V0d2F0Y2guY29tL2ludmVzdGluZy9pbmRleC9kamlh'), 'mw_djia')
