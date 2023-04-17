@@ -4,7 +4,9 @@ import base64
 from selenium import webdriver
 
 def chrome_driver_work():
-    driver = webdriver.Chrome()
+    options = webdriver.ChromeOptions()
+    options.setBinary("/usr/bin/chromium");
+    driver = webdriver.Chrome(options=options)
 
     # base64.b64encode('<url>'.encode('utf-8')).decode()
     wd_download(driver, decode64('aHR0cHM6Ly93d3cubWFya2V0d2F0Y2guY29tL2ludmVzdGluZy9pbmRleC9kamlh'), 'mw_djia')
