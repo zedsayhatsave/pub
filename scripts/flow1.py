@@ -30,7 +30,7 @@ def wd_download(driver, url, output_file, remove_script=True):
     with open(output_file, 'w', encoding='utf-8') as f:
         ## print(driver.page_source[:10240])
         # f.write(driver.page_source)
-        print(get_element_html('table'))
+        print(get_element_html(driver, 'table'))
 
         
 def remove_element(driver, selectors):
