@@ -22,7 +22,7 @@ def decode64(s):
 
 
 def wd_download(driver, url, output_file, remove_script=True):
-    driver.get("url")
+    driver.get(url)
     
     if remove_script:
         #element = driver.execute_script("return document.querySelector('h1')")
@@ -34,7 +34,7 @@ def wd_download(driver, url, output_file, remove_script=True):
             }
             """)
         
-    with open("page_source.html", "w", encoding="utf-8") as f:
+    with open(output_file, "w", encoding="utf-8") as f:
         f.write(driver.page_source)
 
 
