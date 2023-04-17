@@ -9,13 +9,15 @@ WD=$(date +%Y%m%d_%H%M%S)
 which_check() {
  which wget || true
  which curl || true
+ which chromium || true
  which chrome || true
  which goole-chrome || true
  which firefox || true
- which edge || true
+ which microsoft-edge || true
  which lynx || true
  which links || true
  which w3m || true
+ python3 --version
 }
 
 
