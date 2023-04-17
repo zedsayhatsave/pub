@@ -95,7 +95,8 @@ work() {
 
 
 git_update_push_work() {
- git add $WD/report.txt --sparse
+ # git add $WD/report.txt --sparse
+ git add $WD/* --sparse
  git status
  git commit -am .
  git push origin ${WORK_BR}
