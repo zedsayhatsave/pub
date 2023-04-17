@@ -1,0 +1,550 @@
+<table class="table table--primary align--right">
+                        <tbody class="markets__group">
+
+
+            <tr onclick="this.querySelector('a').click();" class="table__row index is-closed is-active" is="bg-gavel" data-charting-symbol="INDEX/US/DOW JONES GLOBAL/DJIA">
+                <td class="table__cell">
+                    <bg-quote tick="100" class="negative" channel="/zigman2/quotes/210598065/realtime"><span class="indicator"></span></bg-quote>
+                </td>
+                <td class="table__cell symbol"><a data-track-code="MW_Header_Market Data_Quote Click_Dow Jones Industrial Average" href="https://www.marketwatch.com/investing/index/djia">Dow</a></td>
+                <td class="table__cell price">
+                    <bg-quote class="ignore-color" field="last" format="0,0.00" channel="/zigman2/quotes/210598065/realtime">33,886.47</bg-quote>
+                </td>
+                <td class="table__cell change">
+                    <bg-quote class="negative" field="change" format="0,0.00" channel="/zigman2/quotes/210598065/realtime">-143.22</bg-quote>
+                </td>
+                <td class="table__cell percent">
+                    <bg-quote class="negative" field="percentchange" format="0.00%" channel="/zigman2/quotes/210598065/realtime">-0.42%</bg-quote>
+                </td>
+                <td class="table__cell arrow">
+                    <bg-quote tick="100" class="negative" channel="/zigman2/quotes/210598065/realtime">
+                        <i class="icon"></i>
+                    </bg-quote>
+                </td>
+            </tr>
+            <tr onclick="this.querySelector('a').click();" class="table__row index is-closed" is="bg-gavel" data-charting-symbol="INDEX/US/S&amp;P US/SPX">
+                <td class="table__cell">
+                    <bg-quote tick="100" class="negative" channel="/zigman2/quotes/210599714/realtime"><span class="indicator"></span></bg-quote>
+                </td>
+                <td class="table__cell symbol"><a data-track-code="MW_Header_Market Data_Quote Click_S&amp;P 500 Index" href="https://www.marketwatch.com/investing/index/spx">S&amp;P 500</a></td>
+                <td class="table__cell price">
+                    <bg-quote class="ignore-color" field="last" format="0,0.00" channel="/zigman2/quotes/210599714/realtime">4,137.64</bg-quote>
+                </td>
+                <td class="table__cell change">
+                    <bg-quote class="negative" field="change" format="0,0.00" channel="/zigman2/quotes/210599714/realtime">-8.58</bg-quote>
+                </td>
+                <td class="table__cell percent">
+                    <bg-quote class="negative" field="percentchange" format="0.00%" channel="/zigman2/quotes/210599714/realtime">-0.21%</bg-quote>
+                </td>
+                <td class="table__cell arrow">
+                    <bg-quote tick="100" class="negative" channel="/zigman2/quotes/210599714/realtime">
+                        <i class="icon"></i>
+                    </bg-quote>
+                </td>
+            </tr>
+            <tr onclick="this.querySelector('a').click();" class="table__row index is-closed" is="bg-gavel" data-charting-symbol="INDEX/US/XNAS/COMP">
+                <td class="table__cell">
+                    <bg-quote tick="100" class="negative" channel="/zigman2/quotes/210598365/realtime"><span class="indicator"></span></bg-quote>
+                </td>
+                <td class="table__cell symbol"><a data-track-code="MW_Header_Market Data_Quote Click_NASDAQ Composite Index" href="https://www.marketwatch.com/investing/index/comp">Nasdaq</a></td>
+                <td class="table__cell price">
+                    <bg-quote class="ignore-color" field="last" format="0,0.00" channel="/zigman2/quotes/210598365/realtime">12,123.47</bg-quote>
+                </td>
+                <td class="table__cell change">
+                    <bg-quote class="negative" field="change" format="0,0.00" channel="/zigman2/quotes/210598365/realtime">-42.81</bg-quote>
+                </td>
+                <td class="table__cell percent">
+                    <bg-quote class="negative" field="percentchange" format="0.00%" channel="/zigman2/quotes/210598365/realtime">-0.35%</bg-quote>
+                </td>
+                <td class="table__cell arrow">
+                    <bg-quote tick="100" class="negative" channel="/zigman2/quotes/210598365/realtime">
+                        <i class="icon"></i>
+                    </bg-quote>
+                </td>
+            </tr>
+            <tr onclick="this.querySelector('a').click();" class="table__row index is-closed" is="bg-gavel" data-charting-symbol="INDEX/US/CBSX/VIX">
+                <td class="table__cell">
+                    <bg-quote tick="100" class="negative" channel="/zigman2/quotes/210598281/delayed"><span class="indicator"></span></bg-quote>
+                </td>
+                <td class="table__cell symbol"><a data-track-code="MW_Header_Market Data_Quote Click_CBOE Volatility Index" href="https://www.marketwatch.com/investing/index/vix">VIX</a></td>
+                <td class="table__cell price">
+                    <bg-quote class="ignore-color" field="last" format="0,0.00" channel="/zigman2/quotes/210598281/delayed">17.07</bg-quote>
+                </td>
+                <td class="table__cell change">
+                    <bg-quote class="negative" field="change" format="0,0.00" channel="/zigman2/quotes/210598281/delayed">-0.73</bg-quote>
+                </td>
+                <td class="table__cell percent">
+                    <bg-quote class="negative" field="percentchange" format="0.00%" channel="/zigman2/quotes/210598281/delayed">-4.10%</bg-quote>
+                </td>
+                <td class="table__cell arrow">
+                    <bg-quote tick="100" class="negative" channel="/zigman2/quotes/210598281/delayed">
+                        <i class="icon"></i>
+                    </bg-quote>
+                </td>
+            </tr>
+            <tr onclick="this.querySelector('a').click();" class="table__row index" is="bg-gavel" data-charting-symbol="FUTURE/US/XNYM/GC00">
+                <td class="table__cell">
+                    <bg-quote tick="100" class="positive" channel="/zigman2/quotes/210034565/delayed"><span class="indicator"></span></bg-quote>
+                </td>
+                <td class="table__cell symbol"><a data-track-code="MW_Header_Market Data_Quote Click_GOLD" href="https://www.marketwatch.com/investing/future/gold">Gold</a></td>
+                <td class="table__cell price">
+                    <bg-quote class="ignore-color" field="last" format="0,0.00" channel="/zigman2/quotes/210034565/delayed">2,017.50</bg-quote>
+                </td>
+                <td class="table__cell change">
+                    <bg-quote class="positive" field="change" format="0,0.00" channel="/zigman2/quotes/210034565/delayed">1.70</bg-quote>
+                </td>
+                <td class="table__cell percent">
+                    <bg-quote class="positive" field="percentchange" format="0.00%" channel="/zigman2/quotes/210034565/delayed">0.08%</bg-quote>
+                </td>
+                <td class="table__cell arrow">
+                    <bg-quote tick="100" class="positive" channel="/zigman2/quotes/210034565/delayed">
+                        <i class="icon"></i>
+                    </bg-quote>
+                </td>
+            </tr>
+            <tr onclick="this.querySelector('a').click();" class="table__row index" is="bg-gavel" data-charting-symbol="FUTURE/US/XNYM/CL.1">
+                <td class="table__cell">
+                    <bg-quote tick="100" class="positive" channel="/zigman2/quotes/211629951/delayed"><span class="indicator"></span></bg-quote>
+                </td>
+                <td class="table__cell symbol"><a data-track-code="MW_Header_Market Data_Quote Click_CRUDE OIL - ELECTRONIC" href="https://www.marketwatch.com/investing/future/crude%20oil%20-%20electronic">Oil</a></td>
+                <td class="table__cell price">
+                    <bg-quote class="ignore-color" field="last" format="0,0.00" channel="/zigman2/quotes/211629951/delayed">82.55</bg-quote>
+                </td>
+                <td class="table__cell change">
+                    <bg-quote class="positive" field="change" format="0,0.00" channel="/zigman2/quotes/211629951/delayed">0.03</bg-quote>
+                </td>
+                <td class="table__cell percent">
+                    <bg-quote class="positive" field="percentchange" format="0.00%" channel="/zigman2/quotes/211629951/delayed">0.04%</bg-quote>
+                </td>
+                <td class="table__cell arrow">
+                    <bg-quote tick="100" class="positive" channel="/zigman2/quotes/211629951/delayed">
+                        <i class="icon"></i>
+                    </bg-quote>
+                </td>
+            </tr>
+                        </tbody>
+                    </table><table class="table table--primary align--right">
+                    <thead>
+                        <tr class="table__row">
+                                <th class="table__heading">Settlement Price 04/14/2023</th>
+                        </tr>
+                    </thead>
+                    <tbody class="remove-last-border">
+                        <tr class="table__row">
+                            <td class="table__cell u-semi">$82.52</td>
+                        </tr>
+                    </tbody>
+                </table><table class="table table--secondary j-hidden j-table">
+            <thead>
+                <tr class="table__row">
+                    <th class="table__heading indicator"></th>
+                    <th class="table__heading w50 align--left">
+                        <div class="primary">Symbol</div>
+                        <small class="secondary">Company</small>
+                    </th>
+                    <th class="table__heading w45">
+                        <div class="primary">Price</div>
+                        <small class="secondary">Chg/Chg %</small>
+                    </th>
+                </tr>
+            </thead>
+            <tbody class="j-watchlist-list">
+                                    
+            </tbody>
+        </table><table class="table table--primary no-heading c2">
+            <tbody>
+                    <tr class="table__row">
+                        <td class="table__cell">5 Day</td>
+                        <td class="table__cell">
+                            <ul class="content u-flex positive">
+                                <li class="content__item value ignore-color">3.30%</li>
+                                <li class="content__item bar">
+                                    <span class="graphic" style="width: 3.3037166812664247278187961500%;"></span>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__cell">1 Month</td>
+                        <td class="table__cell">
+                            <ul class="content u-flex positive">
+                                <li class="content__item value ignore-color">22.10%</li>
+                                <li class="content__item bar">
+                                    <span class="graphic" style="width: 22.097322881230587191243898830%;"></span>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__cell">3 Month</td>
+                        <td class="table__cell">
+                            <ul class="content u-flex positive">
+                                <li class="content__item value ignore-color">3.11%</li>
+                                <li class="content__item bar">
+                                    <span class="graphic" style="width: 3.1101673744691481388958281300%;"></span>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__cell">YTD</td>
+                        <td class="table__cell">
+                            <ul class="content u-flex positive">
+                                <li class="content__item value ignore-color">2.53%</li>
+                                <li class="content__item bar">
+                                    <span class="graphic" style="width: 2.5338467271146441435846478700%;"></span>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__cell">1 Year</td>
+                        <td class="table__cell">
+                            <ul class="content u-flex negative">
+                                <li class="content__item value ignore-color">-23.27%</li>
+                                <li class="content__item bar">
+                                    <span class="graphic" style="width: 23.266406395240751068971927870%;"></span>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+            </tbody>
+        </table><table class="table table--primary align--right">
+                <thead class="table__head">
+                    <tr class="table__row">
+                        <th class="table__heading"></th>
+                        <th class="table__heading">Last</th>
+                        <th class="table__heading">Chg</th>
+                        <th class="table__heading">Open</th>
+                        <th class="table__heading">High</th>
+                        <th class="table__heading">Low</th>
+                        <th class="table__heading">Date/Time</th>
+                    </tr>
+                </thead>
+                <tbody class="table__body">
+                            <tr class="table__row">
+                                <td class="table__cell"><a class="link" href="https://www.marketwatch.com/investing/future/clk23">Crude Oil May 2023</a></td>
+                                <td class="table__cell ignore-color">$82.55</td>
+                                <td class="table__cell positive">0.03</td>
+                                <td class="table__cell">$82.48</td>
+                                <td class="table__cell">$82.71</td>
+                                <td class="table__cell">$82.31</td>
+                                <td class="table__cell u-secondary">Apr 17, 2023 12:36 a.m.</td>
+                            </tr>
+                            <tr class="table__row">
+                                <td class="table__cell"><a class="link" href="https://www.marketwatch.com/investing/future/cl.1">Crude Oil WTI (NYM $/bbl) Front Month</a></td>
+                                <td class="table__cell ignore-color">$82.55</td>
+                                <td class="table__cell positive">0.03</td>
+                                <td class="table__cell">$82.48</td>
+                                <td class="table__cell">$82.71</td>
+                                <td class="table__cell">$82.31</td>
+                                <td class="table__cell u-secondary">Apr 17, 2023 12:36 a.m.</td>
+                            </tr>
+                            <tr class="table__row">
+                                <td class="table__cell"><a class="link" href="https://www.marketwatch.com/investing/future/clm23">Crude Oil Jun 2023</a></td>
+                                <td class="table__cell ignore-color">$82.45</td>
+                                <td class="table__cell positive">0.02</td>
+                                <td class="table__cell">$82.42</td>
+                                <td class="table__cell">$82.62</td>
+                                <td class="table__cell">$82.22</td>
+                                <td class="table__cell u-secondary">Apr 17, 2023 12:36 a.m.</td>
+                            </tr>
+                            <tr class="table__row">
+                                <td class="table__cell"><a class="link" href="https://www.marketwatch.com/investing/future/cln23">Crude Oil Jul 2023</a></td>
+                                <td class="table__cell ignore-color">$82.08</td>
+                                <td class="table__cell positive">0.02</td>
+                                <td class="table__cell">$82.06</td>
+                                <td class="table__cell">$82.24</td>
+                                <td class="table__cell">$81.87</td>
+                                <td class="table__cell u-secondary">Apr 17, 2023 12:36 a.m.</td>
+                            </tr>
+                            <tr class="table__row">
+                                <td class="table__cell"><a class="link" href="https://www.marketwatch.com/investing/future/clq23">Crude Oil Aug 2023</a></td>
+                                <td class="table__cell ignore-color">$81.50</td>
+                                <td class="table__cell positive">0.03</td>
+                                <td class="table__cell">$81.47</td>
+                                <td class="table__cell">$81.64</td>
+                                <td class="table__cell">$81.29</td>
+                                <td class="table__cell u-secondary">Apr 17, 2023 12:33 a.m.</td>
+                            </tr>
+                            <tr class="table__row">
+                                <td class="table__cell"><a class="link" href="https://www.marketwatch.com/investing/future/clu23">Crude Oil Sep 2023</a></td>
+                                <td class="table__cell ignore-color">$80.78</td>
+                                <td class="table__cell positive">0.01</td>
+                                <td class="table__cell">$80.77</td>
+                                <td class="table__cell">$80.91</td>
+                                <td class="table__cell">$80.58</td>
+                                <td class="table__cell u-secondary">Apr 17, 2023 12:13 a.m.</td>
+                            </tr>
+                            <tr class="table__row">
+                                <td class="table__cell"><a class="link" href="https://www.marketwatch.com/investing/future/clv23">Crude Oil Oct 2023</a></td>
+                                <td class="table__cell ignore-color">$80.09</td>
+                                <td class="table__cell positive">0.05</td>
+                                <td class="table__cell">$80.08</td>
+                                <td class="table__cell">$80.10</td>
+                                <td class="table__cell">$79.88</td>
+                                <td class="table__cell u-secondary">Apr 16, 2023 11:08 p.m.</td>
+                            </tr>
+                            <tr class="table__row">
+                                <td class="table__cell"><a class="link" href="https://www.marketwatch.com/investing/future/clx23">Crude Oil Nov 2023</a></td>
+                                <td class="table__cell ignore-color">$79.44</td>
+                                <td class="table__cell positive">0.11</td>
+                                <td class="table__cell">$79.32</td>
+                                <td class="table__cell">$79.72</td>
+                                <td class="table__cell">$78.65</td>
+                                <td class="table__cell u-secondary">Apr 14, 2023 4:59 p.m.</td>
+                            </tr>
+                            <tr class="table__row">
+                                <td class="table__cell"><a class="link" href="https://www.marketwatch.com/investing/future/clz23">Crude Oil Dec 2023</a></td>
+                                <td class="table__cell ignore-color">$78.63</td>
+                                <td class="table__cell negative">-0.03</td>
+                                <td class="table__cell">$78.68</td>
+                                <td class="table__cell">$78.78</td>
+                                <td class="table__cell">$78.45</td>
+                                <td class="table__cell u-secondary">Apr 17, 2023 12:36 a.m.</td>
+                            </tr>
+                            <tr class="table__row">
+                                <td class="table__cell"><a class="link" href="https://www.marketwatch.com/investing/future/clf24">Crude Oil Jan 2024</a></td>
+                                <td class="table__cell ignore-color">$78.00</td>
+                                <td class="table__cell negative">-0.01</td>
+                                <td class="table__cell">$78.00</td>
+                                <td class="table__cell">$78.00</td>
+                                <td class="table__cell">$78.00</td>
+                                <td class="table__cell u-secondary">Apr 16, 2023 6:42 p.m.</td>
+                            </tr>
+                </tbody>
+            </table><table class="table table--primary align--right">
+                <thead class="table__head">
+                    <tr class="table__row">
+                        <th class="table__heading u-secondary">Energy</th>
+                        <th class="table__heading">Last</th>
+                        <th class="table__heading">Chg</th>
+                        <th class="table__heading">Chg %</th>
+                    </tr>
+                </thead>
+                <tbody class="table__body">
+                        <tr class="table__row">
+                            <td class="table__cell w55"><a class="link" href="https://www.marketwatch.com/investing/future/cl00">Crude Oil Continuous Contract</a></td>
+                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="$" suffix="" format="0,0.00" channel="/zigman2/quotes/209723049/delayed">$82.55</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="change" format="0,0.00" channel="/zigman2/quotes/209723049/delayed" class="positive">0.03</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00%" channel="/zigman2/quotes/209723049/delayed" class="positive">0.04%</bg-quote></td>
+                        </tr>
+                        <tr class="table__row">
+                            <td class="table__cell w55"><a class="link" href="https://www.marketwatch.com/investing/future/brn00?countrycode=uk">Brent Crude Oil Continuous Contract</a></td>
+                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="$" suffix="" format="0,0.00" channel="/zigman2/quotes/209704782/delayed">$86.34</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="change" format="0,0.00" channel="/zigman2/quotes/209704782/delayed" class="positive">0.03</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00%" channel="/zigman2/quotes/209704782/delayed" class="positive">0.03%</bg-quote></td>
+                        </tr>
+                        <tr class="table__row">
+                            <td class="table__cell w55"><a class="link" href="https://www.marketwatch.com/investing/future/ng00">Natural Gas Continuous Contract</a></td>
+                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="$" suffix="" format="0,0.000" channel="/zigman2/quotes/210189548/delayed">$2.167</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="change" format="0,0.000" channel="/zigman2/quotes/210189548/delayed" class="positive">0.053</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00%" channel="/zigman2/quotes/210189548/delayed" class="positive">2.51%</bg-quote></td>
+                        </tr>
+                        <tr class="table__row">
+                            <td class="table__cell w55"><a class="link" href="https://www.marketwatch.com/investing/future/rb00">RBOB Gasoline Continuous Contract</a></td>
+                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="$" suffix="" format="0,0.0000" channel="/zigman2/quotes/210286597/delayed">$2.8316</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="change" format="0,0.0000" channel="/zigman2/quotes/210286597/delayed" class="negative">-0.0043</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00%" channel="/zigman2/quotes/210286597/delayed" class="negative">-0.15%</bg-quote></td>
+                        </tr>
+                        <tr class="table__row">
+                            <td class="table__cell w55"><a class="link" href="https://www.marketwatch.com/investing/future/ho00">Heating Oil Continuous Contract</a></td>
+                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="$" suffix="" format="0,0.0000" channel="/zigman2/quotes/210062576/delayed">$2.6437</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="change" format="0,0.0000" channel="/zigman2/quotes/210062576/delayed" class="positive">0.0045</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00%" channel="/zigman2/quotes/210062576/delayed" class="positive">0.17%</bg-quote></td>
+                        </tr>
+                </tbody>
+            </table><table class="table table--primary align--right">
+                <thead class="table__head">
+                    <tr class="table__row">
+                        <th class="table__heading u-secondary">Metals</th>
+                        <th class="table__heading">Last</th>
+                        <th class="table__heading">Chg</th>
+                        <th class="table__heading">Chg %</th>
+                    </tr>
+                </thead>
+                <tbody class="table__body">
+                        <tr class="table__row">
+                            <td class="table__cell w55"><a class="link" href="https://www.marketwatch.com/investing/future/gc00">Gold Continuous Contract</a></td>
+                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="$" suffix="" format="0,0.00" channel="/zigman2/quotes/210034565/delayed">$2,017.50</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="change" format="0,0.00" channel="/zigman2/quotes/210034565/delayed" class="positive">1.70</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00%" channel="/zigman2/quotes/210034565/delayed" class="positive">0.08%</bg-quote></td>
+                        </tr>
+                        <tr class="table__row">
+                            <td class="table__cell w55"><a class="link" href="https://www.marketwatch.com/investing/future/si00">Silver Continuous Contract</a></td>
+                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="$" suffix="" format="0,0.000" channel="/zigman2/quotes/210315219/delayed">$25.410</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="change" format="0,0.000" channel="/zigman2/quotes/210315219/delayed" class="negative">-0.050</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00%" channel="/zigman2/quotes/210315219/delayed" class="negative">-0.20%</bg-quote></td>
+                        </tr>
+                        <tr class="table__row">
+                            <td class="table__cell w55"><a class="link" href="https://www.marketwatch.com/investing/future/hg00">Copper Continuous Contract</a></td>
+                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="$" suffix="" format="0,0.0000" channel="/zigman2/quotes/210054311/delayed">$4.1110</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="change" format="0,0.0000" channel="/zigman2/quotes/210054311/delayed" class="positive">0.0045</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00%" channel="/zigman2/quotes/210054311/delayed" class="positive">0.11%</bg-quote></td>
+                        </tr>
+                </tbody>
+            </table><table class="table table--primary align--right">
+                <thead class="table__head">
+                    <tr class="table__row">
+                        <th class="table__heading u-secondary">Agriculture</th>
+                        <th class="table__heading">Last</th>
+                        <th class="table__heading">Chg</th>
+                        <th class="table__heading">Chg %</th>
+                    </tr>
+                </thead>
+                <tbody class="table__body">
+                        <tr class="table__row">
+                            <td class="table__cell w55"><a class="link" href="https://www.marketwatch.com/investing/future/c00">Corn Continuous Contract</a></td>
+                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="" suffix="¢" format="0,0.00" channel="/zigman2/quotes/209710348/delayed">634.00¢</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="change" format="0,0.00" channel="/zigman2/quotes/209710348/delayed" class="negative">-1.75</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00%" channel="/zigman2/quotes/209710348/delayed" class="negative">-0.28%</bg-quote></td>
+                        </tr>
+                        <tr class="table__row">
+                            <td class="table__cell w55"><a class="link" href="https://www.marketwatch.com/investing/future/w00">Wheat Continuous Contract</a></td>
+                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="" suffix="¢" format="0,0.00" channel="/zigman2/quotes/210389638/delayed">677.75¢</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="change" format="0,0.00" channel="/zigman2/quotes/210389638/delayed" class="negative">-4.75</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00%" channel="/zigman2/quotes/210389638/delayed" class="negative">-0.70%</bg-quote></td>
+                        </tr>
+                        <tr class="table__row">
+                            <td class="table__cell w55"><a class="link" href="https://www.marketwatch.com/investing/future/s00">Soybeans Continuous Contract</a></td>
+                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="" suffix="¢" format="0,0.00" channel="/zigman2/quotes/210304009/delayed">1,502.75¢</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="change" format="0,0.00" channel="/zigman2/quotes/210304009/delayed" class="positive">2.25</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00%" channel="/zigman2/quotes/210304009/delayed" class="positive">0.15%</bg-quote></td>
+                        </tr>
+                        <tr class="table__row">
+                            <td class="table__cell w55"><a class="link" href="https://www.marketwatch.com/investing/future/bo00">Soybean Oil Continuous Contract</a></td>
+                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="" suffix="¢" format="0,0.00" channel="/zigman2/quotes/209696666/delayed">53.73¢</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="change" format="0,0.00" channel="/zigman2/quotes/209696666/delayed" class="negative">-0.04</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00%" channel="/zigman2/quotes/209696666/delayed" class="negative">-0.07%</bg-quote></td>
+                        </tr>
+                        <tr class="table__row">
+                            <td class="table__cell w55"><a class="link" href="https://www.marketwatch.com/investing/future/sm00">Soybean Meal Continuous Contract</a></td>
+                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="$" suffix="" format="0,0.0" channel="/zigman2/quotes/210320978/delayed">$456.0</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="change" format="0,0.0" channel="/zigman2/quotes/210320978/delayed" class="negative">-0.8</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00%" channel="/zigman2/quotes/210320978/delayed" class="negative">-0.18%</bg-quote></td>
+                        </tr>
+                        <tr class="table__row">
+                            <td class="table__cell w55"><a class="link" href="https://www.marketwatch.com/investing/future/lc00">Live Cattle Continuous Contract</a></td>
+                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="" suffix="¢" format="0,0.000" channel="/zigman2/quotes/210112807/delayed">163.650¢</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="change" format="0,0.000" channel="/zigman2/quotes/210112807/delayed" class="negative">-0.075</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00%" channel="/zigman2/quotes/210112807/delayed" class="negative">-0.05%</bg-quote></td>
+                        </tr>
+                </tbody>
+            </table><table class="table table--primary align--right">
+                <thead class="table__head">
+                    <tr class="table__row">
+                        <th class="table__heading u-secondary">Currencies</th>
+                        <th class="table__heading">Last</th>
+                        <th class="table__heading">Chg</th>
+                        <th class="table__heading">Chg %</th>
+                    </tr>
+                </thead>
+                <tbody class="table__body">
+                        <tr class="table__row">
+                            <td class="table__cell w55"><a class="link" href="https://www.marketwatch.com/investing/future/ec00">Euro FX Continuous Contract</a></td>
+                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="$" suffix="" format="0,0.0000" channel="/zigman2/quotes/209935253/delayed">$1.1020</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="change" format="0,0.0000" channel="/zigman2/quotes/209935253/delayed" class="negative">-0.0018</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00%" channel="/zigman2/quotes/209935253/delayed" class="negative">-0.16%</bg-quote></td>
+                        </tr>
+                        <tr class="table__row">
+                            <td class="table__cell w55"><a class="link" href="https://www.marketwatch.com/investing/future/jy00">Japanese Yen Continuous Contract</a></td>
+                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="$" suffix="" format="0,0.0000" channel="/zigman2/quotes/210095272/delayed">$0.7533</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="change" format="0,0.0000" channel="/zigman2/quotes/210095272/delayed" class="negative">-0.0013</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00%" channel="/zigman2/quotes/210095272/delayed" class="negative">-0.17%</bg-quote></td>
+                        </tr>
+                        <tr class="table__row">
+                            <td class="table__cell w55"><a class="link" href="https://www.marketwatch.com/investing/future/bp00">British Pound Continuous Contract</a></td>
+                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="$" suffix="" format="0,0.0000" channel="/zigman2/quotes/209699430/delayed">$1.2424</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="change" format="0,0.0000" channel="/zigman2/quotes/209699430/delayed" class="negative">-0.0009</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00%" channel="/zigman2/quotes/209699430/delayed" class="negative">-0.07%</bg-quote></td>
+                        </tr>
+                        <tr class="table__row">
+                            <td class="table__cell w55"><a class="link" href="https://www.marketwatch.com/investing/future/ad00">Australian Dollar Continuous Contract</a></td>
+                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="$" suffix="" format="0,0.0000" channel="/zigman2/quotes/209542631/delayed">$0.6724</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="change" format="0,0.0000" channel="/zigman2/quotes/209542631/delayed" class="positive">0.0002</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00%" channel="/zigman2/quotes/209542631/delayed" class="positive">0.02%</bg-quote></td>
+                        </tr>
+                        <tr class="table__row">
+                            <td class="table__cell w55"><a class="link" href="https://www.marketwatch.com/investing/future/cd00">Canadian Dollar Continuous Contract</a></td>
+                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="$" suffix="" format="0,0.0000" channel="/zigman2/quotes/209714081/delayed">$0.7495</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="change" format="0,0.0000" channel="/zigman2/quotes/209714081/delayed" class="positive">0.0001</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00%" channel="/zigman2/quotes/209714081/delayed" class="positive">0.01%</bg-quote></td>
+                        </tr>
+                </tbody>
+            </table><table class="table table--primary align--right">
+                <thead class="table__head">
+                    <tr class="table__row">
+                        <th class="table__heading u-secondary">Interest Rates</th>
+                        <th class="table__heading">Last</th>
+                        <th class="table__heading">Chg</th>
+                        <th class="table__heading">Chg %</th>
+                    </tr>
+                </thead>
+                <tbody class="table__body">
+                        <tr class="table__row">
+                            <td class="table__cell w55"><a class="link" href="https://www.marketwatch.com/investing/future/ed00">Eurodollar 3 Month Continuous Contract</a></td>
+                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="$" suffix="" format="0,0.0000" channel="/zigman2/quotes/209936444/delayed">$94.6400</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="change" format="0,0.0000" channel="/zigman2/quotes/209936444/delayed" class="negative">-0.0050</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00%" channel="/zigman2/quotes/209936444/delayed" class="negative">-0.01%</bg-quote></td>
+                        </tr>
+                        <tr class="table__row">
+                            <td class="table__cell w55"><a class="link" href="https://www.marketwatch.com/investing/future/tu00">2-Year U.S. Treasury Note Continuous Contract</a></td>
+                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="$" suffix="" format="0,0.000" channel="/zigman2/quotes/210364718/delayed">$103.109</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="change" format="0,0.000" channel="/zigman2/quotes/210364718/delayed" class="negative">-0.023</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00%" channel="/zigman2/quotes/210364718/delayed" class="negative">-0.02%</bg-quote></td>
+                        </tr>
+                        <tr class="table__row">
+                            <td class="table__cell w55"><a class="link" href="https://www.marketwatch.com/investing/future/fv00">5-Year U.S. Treasury Note Continuous Contract</a></td>
+                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="$" suffix="" format="0,0.000" channel="/zigman2/quotes/210027242/delayed">$109.484</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="change" format="0,0.000" channel="/zigman2/quotes/210027242/delayed" class="positive">0.016</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00%" channel="/zigman2/quotes/210027242/delayed" class="positive">0.01%</bg-quote></td>
+                        </tr>
+                        <tr class="table__row">
+                            <td class="table__cell w55"><a class="link" href="https://www.marketwatch.com/investing/future/ty00">10-Year U.S. Treasury Note Continuous Contract</a></td>
+                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="$" suffix="" format="0,0.000" channel="/zigman2/quotes/210369575/delayed">$114.891</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="change" format="0,0.000" channel="/zigman2/quotes/210369575/delayed" class="positive">0.031</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00%" channel="/zigman2/quotes/210369575/delayed" class="positive">0.03%</bg-quote></td>
+                        </tr>
+                        <tr class="table__row">
+                            <td class="table__cell w55"><a class="link" href="https://www.marketwatch.com/investing/future/us00">30-Year U.S. Treasury Bond Continuous Contract</a></td>
+                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="$" suffix="" format="0,0.000" channel="/zigman2/quotes/210378707/delayed">$130.844</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="change" format="0,0.000" channel="/zigman2/quotes/210378707/delayed" class="positive">0.125</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00%" channel="/zigman2/quotes/210378707/delayed" class="positive">0.10%</bg-quote></td>
+                        </tr>
+                </tbody>
+            </table><table class="table table--primary align--right">
+                <thead class="table__head">
+                    <tr class="table__row">
+                        <th class="table__heading u-secondary">Indexes</th>
+                        <th class="table__heading">Last</th>
+                        <th class="table__heading">Chg</th>
+                        <th class="table__heading">Chg %</th>
+                    </tr>
+                </thead>
+                <tbody class="table__body">
+                        <tr class="table__row">
+                            <td class="table__cell w55"><a class="link" href="https://www.marketwatch.com/investing/future/ym00">E-Mini Dow Continuous Contract</a></td>
+                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="$" suffix="" format="0,0." channel="/zigman2/quotes/210407078/delayed">$34,090</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="change" format="0,0." channel="/zigman2/quotes/210407078/delayed" class="positive">53</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00%" channel="/zigman2/quotes/210407078/delayed" class="positive">0.16%</bg-quote></td>
+                        </tr>
+                        <tr class="table__row">
+                            <td class="table__cell w55"><a class="link" href="https://www.marketwatch.com/investing/future/es00">E-Mini S&amp;P 500 Future Continuous Contract</a></td>
+                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="$" suffix="" format="0,0.00" channel="/zigman2/quotes/209948968/delayed">$4,170.00</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="change" format="0,0.00" channel="/zigman2/quotes/209948968/delayed" class="positive">6.25</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00%" channel="/zigman2/quotes/209948968/delayed" class="positive">0.15%</bg-quote></td>
+                        </tr>
+                        <tr class="table__row">
+                            <td class="table__cell w55"><a class="link" href="https://www.marketwatch.com/investing/future/nq00">E-Mini Nasdaq 100 Index Continuous Contract</a></td>
+                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="$" suffix="" format="0,0.00" channel="/zigman2/quotes/210219788/delayed">$13,181.75</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="change" format="0,0.00" channel="/zigman2/quotes/210219788/delayed" class="positive">0.50</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00%" channel="/zigman2/quotes/210219788/delayed" class="positive">0.00%</bg-quote></td>
+                        </tr>
+                </tbody>
+            </table><table class="table table--secondary" role="presentation">
+          <tbody class="j-search-symbols">
+          </tbody>
+        </table><table class="table table--secondary" role="presentation">
+          <tbody class="j-search-privatecompanies">
+          </tbody>
+        </table>
