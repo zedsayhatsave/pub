@@ -17,7 +17,7 @@ which_version_check() {
 
  chromium --version
  chromedriver --version
- #which chromium || true
+ which chromium || true
  #which chrome || true
  #which goole-chrome || true
  #which chromedriver || true
