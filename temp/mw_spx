@@ -88,13 +88,13 @@
                 </td>
                 <td class="table__cell symbol"><a data-track-code="MW_Header_Market Data_Quote Click_GOLD" href="https://www.marketwatch.com/investing/future/gold">Gold</a></td>
                 <td class="table__cell price">
-                    <bg-quote class="ignore-color" field="last" format="0,0.00" channel="/zigman2/quotes/210034565/delayed">2,017.60</bg-quote>
+                    <bg-quote class="ignore-color" field="last" format="0,0.00" channel="/zigman2/quotes/210034565/delayed">2,017.50</bg-quote>
                 </td>
                 <td class="table__cell change">
-                    <bg-quote class="positive" field="change" format="0,0.00" channel="/zigman2/quotes/210034565/delayed">1.80</bg-quote>
+                    <bg-quote class="positive" field="change" format="0,0.00" channel="/zigman2/quotes/210034565/delayed">1.70</bg-quote>
                 </td>
                 <td class="table__cell percent">
-                    <bg-quote class="positive" field="percentchange" format="0.00%" channel="/zigman2/quotes/210034565/delayed">0.09%</bg-quote>
+                    <bg-quote class="positive" field="percentchange" format="0.00%" channel="/zigman2/quotes/210034565/delayed">0.08%</bg-quote>
                 </td>
                 <td class="table__cell arrow">
                     <bg-quote tick="100" class="positive" channel="/zigman2/quotes/210034565/delayed">
@@ -131,7 +131,7 @@
                     </thead>
                     <tbody class="remove-last-border">
                         <tr class="table__row">
-                            <td class="table__cell u-semi">34,029.69</td>
+                            <td class="table__cell u-semi">4,146.22</td>
                         </tr>
                     </tbody>
                 </table><table class="table table--secondary j-hidden j-table">
@@ -157,9 +157,9 @@
                         <td class="table__cell">5 Day</td>
                         <td class="table__cell">
                             <ul class="content u-flex positive">
-                                <li class="content__item value ignore-color">1.20%</li>
+                                <li class="content__item value ignore-color">0.79%</li>
                                 <li class="content__item bar">
-                                    <span class="graphic" style="width: 1.1980824543564438249242942500%;"></span>
+                                    <span class="graphic" style="width: 0.7946368105392909169748259400%;"></span>
                                 </li>
                             </ul>
                         </td>
@@ -168,9 +168,9 @@
                         <td class="table__cell">1 Month</td>
                         <td class="table__cell">
                             <ul class="content u-flex positive">
-                                <li class="content__item value ignore-color">6.35%</li>
+                                <li class="content__item value ignore-color">5.64%</li>
                                 <li class="content__item bar">
-                                    <span class="graphic" style="width: 6.3539233154685859962646847400%;"></span>
+                                    <span class="graphic" style="width: 5.6426660848311745515931815400%;"></span>
                                 </li>
                             </ul>
                         </td>
@@ -178,10 +178,10 @@
                     <tr class="table__row">
                         <td class="table__cell">3 Month</td>
                         <td class="table__cell">
-                            <ul class="content u-flex negative">
-                                <li class="content__item value ignore-color">-1.21%</li>
+                            <ul class="content u-flex positive">
+                                <li class="content__item value ignore-color">3.46%</li>
                                 <li class="content__item bar">
-                                    <span class="graphic" style="width: 1.2131410102691431019378504500%;"></span>
+                                    <span class="graphic" style="width: 3.4645381824365043047293259200%;"></span>
                                 </li>
                             </ul>
                         </td>
@@ -190,9 +190,9 @@
                         <td class="table__cell">YTD</td>
                         <td class="table__cell">
                             <ul class="content u-flex positive">
-                                <li class="content__item value ignore-color">2.23%</li>
+                                <li class="content__item value ignore-color">7.77%</li>
                                 <li class="content__item bar">
-                                    <span class="graphic" style="width: 2.2301143569055023919397431600%;"></span>
+                                    <span class="graphic" style="width: 7.7650735772887094673785649200%;"></span>
                                 </li>
                             </ul>
                         </td>
@@ -201,9 +201,9 @@
                         <td class="table__cell">1 Year</td>
                         <td class="table__cell">
                             <ul class="content u-flex negative">
-                                <li class="content__item value ignore-color">-1.64%</li>
+                                <li class="content__item value ignore-color">-5.80%</li>
                                 <li class="content__item bar">
-                                    <span class="graphic" style="width: 1.6393048590255809286806659400%;"></span>
+                                    <span class="graphic" style="width: 5.8040928017411140124618960600%;"></span>
                                 </li>
                             </ul>
                         </td>
@@ -315,8 +315,8 @@
                 <tbody class="table__body">
                         <tr class="table__row">
                             <td class="table__cell w55"><a class="link" href="https://www.marketwatch.com/investing/index/gdow">Global Dow Realtime USD</a></td>
-                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="" suffix="" format="0,0.00" channel="/zigman2/quotes/210599024/realtime">3,993.69</bg-quote></td>
-                            <td class="table__cell w15"><bg-quote field="change" format="0,0.00" channel="/zigman2/quotes/210599024/realtime" class="negative">-2.77</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="" suffix="" format="0,0.00" channel="/zigman2/quotes/210599024/realtime">3,993.78</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="change" format="0,0.00" channel="/zigman2/quotes/210599024/realtime" class="negative">-2.68</bg-quote></td>
                             <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00%" channel="/zigman2/quotes/210599024/realtime" class="negative">-0.07%</bg-quote></td>
                         </tr>
                 </tbody>
@@ -332,9 +332,9 @@
                 <tbody class="table__body">
                         <tr class="table__row">
                             <td class="table__cell w55"><a class="link" href="https://www.marketwatch.com/investing/index/adow?countrycode=xx">The Asia Dow Index USD</a></td>
-                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="" suffix="" format="0,0.00" channel="/zigman2/quotes/211618636/realtime">3,416.49</bg-quote></td>
-                            <td class="table__cell w15"><bg-quote field="change" format="0,0.00" channel="/zigman2/quotes/211618636/realtime" class="positive">1.82</bg-quote></td>
-                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00%" channel="/zigman2/quotes/211618636/realtime" class="positive">0.05%</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="" suffix="" format="0,0.00" channel="/zigman2/quotes/211618636/realtime">3,417.12</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="change" format="0,0.00" channel="/zigman2/quotes/211618636/realtime" class="positive">2.45</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00%" channel="/zigman2/quotes/211618636/realtime" class="positive">0.07%</bg-quote></td>
                         </tr>
                         <tr class="table__row">
                             <td class="table__cell w55"><a class="link" href="https://www.marketwatch.com/investing/index/xjo?countrycode=au">S&amp;P/ASX 200 Benchmark Index</a></td>
@@ -356,14 +356,14 @@
                         </tr>
                         <tr class="table__row">
                             <td class="table__cell w55"><a class="link" href="https://www.marketwatch.com/investing/index/1?countrycode=in">S&amp;P BSE Sensex Index</a></td>
-                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="" suffix="" format="0,0.00" channel="/zigman2/quotes/210597966/delayed">59,485.38</bg-quote></td>
-                            <td class="table__cell w15"><bg-quote field="change" format="0,0.00" channel="/zigman2/quotes/210597966/delayed" class="negative">-945.62</bg-quote></td>
-                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00%" channel="/zigman2/quotes/210597966/delayed" class="negative">-1.56%</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="" suffix="" format="0,0.00" channel="/zigman2/quotes/210597966/delayed">59,471.32</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="change" format="0,0.00" channel="/zigman2/quotes/210597966/delayed" class="negative">-959.68</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00%" channel="/zigman2/quotes/210597966/delayed" class="negative">-1.59%</bg-quote></td>
                         </tr>
                         <tr class="table__row">
                             <td class="table__cell w55"><a class="link" href="https://www.marketwatch.com/investing/index/nik?countrycode=jp">NIKKEI 225 Index</a></td>
-                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="" suffix="" format="0,0.00" channel="/zigman2/quotes/210597971/delayed">28,481.00</bg-quote></td>
-                            <td class="table__cell w15"><bg-quote field="change" format="0,0.00" channel="/zigman2/quotes/210597971/delayed" class="negative">-12.47</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="" suffix="" format="0,0.00" channel="/zigman2/quotes/210597971/delayed">28,481.86</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="change" format="0,0.00" channel="/zigman2/quotes/210597971/delayed" class="negative">-11.61</bg-quote></td>
                             <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00%" channel="/zigman2/quotes/210597971/delayed" class="negative">-0.04%</bg-quote></td>
                         </tr>
                         <tr class="table__row">
@@ -466,178 +466,129 @@
                             <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00" class="positive">7.55%</bg-quote></td>
                         </tr>
                          <tr class="table__row">
-                            <td class="table__cell w55 stock-positive"><a class="link" href="https://www.marketwatch.com/investing/stock/gs">Goldman Sachs Group Inc.</a></td>
-                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="$" suffix="" format="0,0.00">$336.92</bg-quote></td>
-                            <td class="table__cell w15"><bg-quote field="change" format="0,0.00" class="positive">4.79</bg-quote></td>
-                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00" class="positive">1.44%</bg-quote></td>
+                            <td class="table__cell w55 stock-positive"><a class="link" href="https://www.marketwatch.com/investing/stock/c">Citigroup Inc.</a></td>
+                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="$" suffix="" format="0,0.00">$49.56</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="change" format="0,0.00" class="positive">2.26</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00" class="positive">4.78%</bg-quote></td>
                         </tr>
                          <tr class="table__row">
-                            <td class="table__cell w55 stock-positive"><a class="link" href="https://www.marketwatch.com/investing/stock/cat">Caterpillar Inc.</a></td>
-                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="$" suffix="" format="0,0.00">$223.68</bg-quote></td>
-                            <td class="table__cell w15"><bg-quote field="change" format="0,0.00" class="positive">2.01</bg-quote></td>
-                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00" class="positive">0.91%</bg-quote></td>
+                            <td class="table__cell w55 stock-positive"><a class="link" href="https://www.marketwatch.com/investing/stock/bac">Bank of America Corp.</a></td>
+                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="$" suffix="" format="0,0.00">$29.52</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="change" format="0,0.00" class="positive">0.96</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00" class="positive">3.36%</bg-quote></td>
                         </tr>
                          <tr class="table__row">
-                            <td class="table__cell w55 stock-positive"><a class="link" href="https://www.marketwatch.com/investing/stock/v">Visa Inc. Cl A</a></td>
-                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="$" suffix="" format="0,0.00">$234.02</bg-quote></td>
-                            <td class="table__cell w15"><bg-quote field="change" format="0,0.00" class="positive">1.33</bg-quote></td>
-                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00" class="positive">0.57%</bg-quote></td>
+                            <td class="table__cell w55 stock-positive"><a class="link" href="https://www.marketwatch.com/investing/stock/blk">BlackRock Inc.</a></td>
+                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="$" suffix="" format="0,0.00">$691.33</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="change" format="0,0.00" class="positive">20.60</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00" class="positive">3.07%</bg-quote></td>
                         </tr>
                          <tr class="table__row">
-                            <td class="table__cell w55 stock-positive"><a class="link" href="https://www.marketwatch.com/investing/stock/axp">American Express Co.</a></td>
-                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="$" suffix="" format="0,0.00">$163.22</bg-quote></td>
-                            <td class="table__cell w15"><bg-quote field="change" format="0,0.00" class="positive">0.92</bg-quote></td>
-                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00" class="positive">0.57%</bg-quote></td>
+                            <td class="table__cell w55 stock-positive"><a class="link" href="https://www.marketwatch.com/investing/stock/vfc">VF Corp.</a></td>
+                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="$" suffix="" format="0,0.00">$22.48</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="change" format="0,0.00" class="positive">0.66</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00" class="positive">3.02%</bg-quote></td>
                         </tr>
                          <tr class="table__row">
-                            <td class="table__cell w55 stock-positive"><a class="link" href="https://www.marketwatch.com/investing/stock/hon">Honeywell International Inc.</a></td>
-                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="$" suffix="" format="0,0.00">$196.55</bg-quote></td>
-                            <td class="table__cell w15"><bg-quote field="change" format="0,0.00" class="positive">0.65</bg-quote></td>
-                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00" class="positive">0.33%</bg-quote></td>
+                            <td class="table__cell w55 stock-positive"><a class="link" href="https://www.marketwatch.com/investing/stock/tech">Bio-Techne Corp.</a></td>
+                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="$" suffix="" format="0,0.00">$85.24</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="change" format="0,0.00" class="positive">1.69</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00" class="positive">2.02%</bg-quote></td>
                         </tr>
                          <tr class="table__row">
-                            <td class="table__cell w55 stock-positive"><a class="link" href="https://www.marketwatch.com/investing/stock/crm">Salesforce Inc.</a></td>
-                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="$" suffix="" format="0,0.00">$194.65</bg-quote></td>
-                            <td class="table__cell w15"><bg-quote field="change" format="0,0.00" class="positive">0.63</bg-quote></td>
-                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00" class="positive">0.32%</bg-quote></td>
+                            <td class="table__cell w55 stock-positive"><a class="link" href="https://www.marketwatch.com/investing/stock/etsy">Etsy Inc.</a></td>
+                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="$" suffix="" format="0,0.00">$102.53</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="change" format="0,0.00" class="positive">1.81</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00" class="positive">1.80%</bg-quote></td>
                         </tr>
                          <tr class="table__row">
-                            <td class="table__cell w55 stock-positive"><a class="link" href="https://www.marketwatch.com/investing/stock/cvx">Chevron Corp.</a></td>
-                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="$" suffix="" format="0,0.00">$172.44</bg-quote></td>
-                            <td class="table__cell w15"><bg-quote field="change" format="0,0.00" class="positive">0.35</bg-quote></td>
-                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00" class="positive">0.20%</bg-quote></td>
+                            <td class="table__cell w55 stock-positive"><a class="link" href="https://www.marketwatch.com/investing/stock/fast">Fastenal Co.</a></td>
+                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="$" suffix="" format="0,0.00">$53.27</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="change" format="0,0.00" class="positive">0.93</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00" class="positive">1.78%</bg-quote></td>
                         </tr>
                          <tr class="table__row">
-                            <td class="table__cell w55 stock-positive"><a class="link" href="https://www.marketwatch.com/investing/stock/ibm">International Business Machines Corp.</a></td>
-                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="$" suffix="" format="0,0.00">$128.14</bg-quote></td>
-                            <td class="table__cell w15"><bg-quote field="change" format="0,0.00" class="positive">0.24</bg-quote></td>
-                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00" class="positive">0.19%</bg-quote></td>
+                            <td class="table__cell w55 stock-positive"><a class="link" href="https://www.marketwatch.com/investing/stock/odfl">Old Dominion Freight Line Inc.</a></td>
+                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="$" suffix="" format="0,0.00">$338.67</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="change" format="0,0.00" class="positive">5.90</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00" class="positive">1.77%</bg-quote></td>
                         </tr>
                          <tr class="table__row">
-                            <td class="table__cell w55 stock-positive"><a class="link" href="https://www.marketwatch.com/investing/stock/hd">Home Depot Inc.</a></td>
-                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="$" suffix="" format="0,0.00">$292.19</bg-quote></td>
-                            <td class="table__cell w15"><bg-quote field="change" format="0,0.00" class="positive">0.04</bg-quote></td>
-                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00" class="positive">0.01%</bg-quote></td>
+                            <td class="table__cell w55 stock-positive"><a class="link" href="https://www.marketwatch.com/investing/stock/trgp">Targa Resources Corp.</a></td>
+                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="$" suffix="" format="0,0.00">$77.91</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="change" format="0,0.00" class="positive">1.29</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00" class="positive">1.68%</bg-quote></td>
+                        </tr>
+                </tbody>
+            </table><table class="table table--primary  align--right">
+                <thead class="table__head">
+                    <tr class="table__row">
+                        <th class="table__heading u-secondary">Name</th>
+                        <th class="table__heading">Last</th>
+                        <th class="table__heading">Chg</th>
+                        <th class="table__heading">Chg %</th>
+                    </tr>
+                </thead>
+                <tbody class="table__body">
+                         <tr class="table__row">
+                            <td class="table__cell w55 stock-negative"><a class="link" href="https://www.marketwatch.com/investing/stock/ctlt">Catalent Inc.</a></td>
+                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="$" suffix="" format="0,0.00">$46.32</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="change" format="0,0.00" class="negative">-16.99</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00" class="negative">-26.84%</bg-quote></td>
                         </tr>
                          <tr class="table__row">
-                            <td class="table__cell w55 stock-negative"><a class="link" href="https://www.marketwatch.com/investing/stock/mcd">McDonald's Corp.</a></td>
-                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="$" suffix="" format="0,0.00">$288.98</bg-quote></td>
-                            <td class="table__cell w15"><bg-quote field="change" format="0,0.00" class="negative">-0.09</bg-quote></td>
-                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00" class="negative">-0.03%</bg-quote></td>
-                        </tr>
-                         <tr class="table__row">
-                            <td class="table__cell w55 stock-negative"><a class="link" href="https://www.marketwatch.com/investing/stock/ko">Coca-Cola Co.</a></td>
-                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="$" suffix="" format="0,0.00">$63.05</bg-quote></td>
-                            <td class="table__cell w15"><bg-quote field="change" format="0,0.00" class="negative">-0.10</bg-quote></td>
-                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00" class="negative">-0.16%</bg-quote></td>
-                        </tr>
-                         <tr class="table__row">
-                            <td class="table__cell w55 stock-negative"><a class="link" href="https://www.marketwatch.com/investing/stock/jnj">Johnson &amp; Johnson</a></td>
-                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="$" suffix="" format="0,0.00">$165.84</bg-quote></td>
-                            <td class="table__cell w15"><bg-quote field="change" format="0,0.00" class="negative">-0.27</bg-quote></td>
-                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00" class="negative">-0.16%</bg-quote></td>
-                        </tr>
-                         <tr class="table__row">
-                            <td class="table__cell w55 stock-negative"><a class="link" href="https://www.marketwatch.com/investing/stock/aapl">Apple Inc.</a></td>
-                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="$" suffix="" format="0,0.00">$165.21</bg-quote></td>
-                            <td class="table__cell w15"><bg-quote field="change" format="0,0.00" class="negative">-0.35</bg-quote></td>
-                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00" class="negative">-0.21%</bg-quote></td>
-                        </tr>
-                         <tr class="table__row">
-                            <td class="table__cell w55 stock-negative"><a class="link" href="https://www.marketwatch.com/investing/stock/mrk">Merck &amp; Co. Inc.</a></td>
-                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="$" suffix="" format="0,0.00">$115.31</bg-quote></td>
-                            <td class="table__cell w15"><bg-quote field="change" format="0,0.00" class="negative">-0.27</bg-quote></td>
-                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00" class="negative">-0.23%</bg-quote></td>
-                        </tr>
-                         <tr class="table__row">
-                            <td class="table__cell w55 stock-negative"><a class="link" href="https://www.marketwatch.com/investing/stock/vz">Verizon Communications Inc.</a></td>
-                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="$" suffix="" format="0,0.00">$39.22</bg-quote></td>
-                            <td class="table__cell w15"><bg-quote field="change" format="0,0.00" class="negative">-0.10</bg-quote></td>
-                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00" class="negative">-0.25%</bg-quote></td>
-                        </tr>
-                         <tr class="table__row">
-                            <td class="table__cell w55 stock-negative"><a class="link" href="https://www.marketwatch.com/investing/stock/mmm">3M Co.</a></td>
-                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="$" suffix="" format="0,0.00">$105.77</bg-quote></td>
-                            <td class="table__cell w15"><bg-quote field="change" format="0,0.00" class="negative">-0.38</bg-quote></td>
-                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00" class="negative">-0.36%</bg-quote></td>
-                        </tr>
-                         <tr class="table__row">
-                            <td class="table__cell w55 stock-negative"><a class="link" href="https://www.marketwatch.com/investing/stock/nke">Nike Inc. Cl B</a></td>
-                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="$" suffix="" format="0,0.00">$125.95</bg-quote></td>
-                            <td class="table__cell w15"><bg-quote field="change" format="0,0.00" class="negative">-0.48</bg-quote></td>
-                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00" class="negative">-0.38%</bg-quote></td>
-                        </tr>
-                         <tr class="table__row">
-                            <td class="table__cell w55 stock-negative"><a class="link" href="https://www.marketwatch.com/investing/stock/pg">Procter &amp; Gamble Co.</a></td>
-                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="$" suffix="" format="0,0.00">$151.00</bg-quote></td>
-                            <td class="table__cell w15"><bg-quote field="change" format="0,0.00" class="negative">-0.77</bg-quote></td>
-                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00" class="negative">-0.51%</bg-quote></td>
-                        </tr>
-                         <tr class="table__row">
-                            <td class="table__cell w55 stock-negative"><a class="link" href="https://www.marketwatch.com/investing/stock/csco">Cisco Systems Inc.</a></td>
-                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="$" suffix="" format="0,0.00">$50.54</bg-quote></td>
-                            <td class="table__cell w15"><bg-quote field="change" format="0,0.00" class="negative">-0.26</bg-quote></td>
-                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00" class="negative">-0.51%</bg-quote></td>
-                        </tr>
-                         <tr class="table__row">
-                            <td class="table__cell w55 stock-negative"><a class="link" href="https://www.marketwatch.com/investing/stock/amgn">Amgen Inc.</a></td>
-                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="$" suffix="" format="0,0.00">$250.00</bg-quote></td>
-                            <td class="table__cell w15"><bg-quote field="change" format="0,0.00" class="negative">-1.44</bg-quote></td>
-                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00" class="negative">-0.57%</bg-quote></td>
-                        </tr>
-                         <tr class="table__row">
-                            <td class="table__cell w55 stock-negative"><a class="link" href="https://www.marketwatch.com/investing/stock/wmt">Walmart Inc.</a></td>
-                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="$" suffix="" format="0,0.00">$148.48</bg-quote></td>
-                            <td class="table__cell w15"><bg-quote field="change" format="0,0.00" class="negative">-1.01</bg-quote></td>
-                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00" class="negative">-0.68%</bg-quote></td>
-                        </tr>
-                         <tr class="table__row">
-                            <td class="table__cell w55 stock-negative"><a class="link" href="https://www.marketwatch.com/investing/stock/dow">Dow Inc.</a></td>
-                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="$" suffix="" format="0,0.00">$56.50</bg-quote></td>
-                            <td class="table__cell w15"><bg-quote field="change" format="0,0.00" class="negative">-0.42</bg-quote></td>
-                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00" class="negative">-0.74%</bg-quote></td>
-                        </tr>
-                         <tr class="table__row">
-                            <td class="table__cell w55 stock-negative"><a class="link" href="https://www.marketwatch.com/investing/stock/intc">Intel Corp.</a></td>
-                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="$" suffix="" format="0,0.00">$31.89</bg-quote></td>
-                            <td class="table__cell w15"><bg-quote field="change" format="0,0.00" class="negative">-0.24</bg-quote></td>
-                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00" class="negative">-0.75%</bg-quote></td>
-                        </tr>
-                         <tr class="table__row">
-                            <td class="table__cell w55 stock-negative"><a class="link" href="https://www.marketwatch.com/investing/stock/dis">Walt Disney Co.</a></td>
-                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="$" suffix="" format="0,0.00">$99.90</bg-quote></td>
-                            <td class="table__cell w15"><bg-quote field="change" format="0,0.00" class="negative">-0.94</bg-quote></td>
-                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00" class="negative">-0.93%</bg-quote></td>
-                        </tr>
-                         <tr class="table__row">
-                            <td class="table__cell w55 stock-negative"><a class="link" href="https://www.marketwatch.com/investing/stock/msft">Microsoft Corp.</a></td>
-                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="$" suffix="" format="0,0.00">$286.14</bg-quote></td>
-                            <td class="table__cell w15"><bg-quote field="change" format="0,0.00" class="negative">-3.70</bg-quote></td>
-                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00" class="negative">-1.28%</bg-quote></td>
-                        </tr>
-                         <tr class="table__row">
-                            <td class="table__cell w55 stock-negative"><a class="link" href="https://www.marketwatch.com/investing/stock/wba">Walgreens Boots Alliance Inc.</a></td>
-                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="$" suffix="" format="0,0.00">$35.32</bg-quote></td>
-                            <td class="table__cell w15"><bg-quote field="change" format="0,0.00" class="negative">-0.46</bg-quote></td>
-                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00" class="negative">-1.29%</bg-quote></td>
-                        </tr>
-                         <tr class="table__row">
-                            <td class="table__cell w55 stock-negative"><a class="link" href="https://www.marketwatch.com/investing/stock/unh">UnitedHealth Group Inc.</a></td>
-                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="$" suffix="" format="0,0.00">$511.79</bg-quote></td>
-                            <td class="table__cell w15"><bg-quote field="change" format="0,0.00" class="negative">-14.44</bg-quote></td>
-                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00" class="negative">-2.74%</bg-quote></td>
-                        </tr>
-                         <tr class="table__row">
-                            <td class="table__cell w55 stock-negative"><a class="link" href="https://www.marketwatch.com/investing/stock/trv">Travelers Cos. Inc.</a></td>
-                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="$" suffix="" format="0,0.00">$168.37</bg-quote></td>
-                            <td class="table__cell w15"><bg-quote field="change" format="0,0.00" class="negative">-4.83</bg-quote></td>
-                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00" class="negative">-2.79%</bg-quote></td>
+                            <td class="table__cell w55 stock-negative"><a class="link" href="https://www.marketwatch.com/investing/stock/dish">DISH Network Corp. Cl A</a></td>
+                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="$" suffix="" format="0,0.00">$7.84</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="change" format="0,0.00" class="negative">-0.50</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00" class="negative">-6.00%</bg-quote></td>
                         </tr>
                          <tr class="table__row">
                             <td class="table__cell w55 stock-negative"><a class="link" href="https://www.marketwatch.com/investing/stock/ba">Boeing Co.</a></td>
                             <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="$" suffix="" format="0,0.00">$201.71</bg-quote></td>
                             <td class="table__cell w15"><bg-quote field="change" format="0,0.00" class="negative">-11.88</bg-quote></td>
                             <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00" class="negative">-5.56%</bg-quote></td>
+                        </tr>
+                         <tr class="table__row">
+                            <td class="table__cell w55 stock-negative"><a class="link" href="https://www.marketwatch.com/investing/stock/psa">Public Storage</a></td>
+                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="$" suffix="" format="0,0.00">$290.35</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="change" format="0,0.00" class="negative">-14.16</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00" class="negative">-4.65%</bg-quote></td>
+                        </tr>
+                         <tr class="table__row">
+                            <td class="table__cell w55 stock-negative"><a class="link" href="https://www.marketwatch.com/investing/stock/ste">Steris PLC</a></td>
+                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="$" suffix="" format="0,0.00">$186.53</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="change" format="0,0.00" class="negative">-8.59</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00" class="negative">-4.40%</bg-quote></td>
+                        </tr>
+                         <tr class="table__row">
+                            <td class="table__cell w55 stock-negative"><a class="link" href="https://www.marketwatch.com/investing/stock/now">ServiceNow Inc.</a></td>
+                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="$" suffix="" format="0,0.00">$463.03</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="change" format="0,0.00" class="negative">-20.47</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00" class="negative">-4.23%</bg-quote></td>
+                        </tr>
+                         <tr class="table__row">
+                            <td class="table__cell w55 stock-negative"><a class="link" href="https://www.marketwatch.com/investing/stock/hig">Hartford Financial Services Group Inc.</a></td>
+                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="$" suffix="" format="0,0.00">$68.04</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="change" format="0,0.00" class="negative">-2.79</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00" class="negative">-3.94%</bg-quote></td>
+                        </tr>
+                         <tr class="table__row">
+                            <td class="table__cell w55 stock-negative"><a class="link" href="https://www.marketwatch.com/investing/stock/zion">Zions Bancorp N.A.</a></td>
+                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="$" suffix="" format="0,0.00">$29.95</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="change" format="0,0.00" class="negative">-1.20</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00" class="negative">-3.85%</bg-quote></td>
+                        </tr>
+                         <tr class="table__row">
+                            <td class="table__cell w55 stock-negative"><a class="link" href="https://www.marketwatch.com/investing/stock/wdc">Western Digital Corp.</a></td>
+                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="$" suffix="" format="0,0.00">$35.46</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="change" format="0,0.00" class="negative">-1.42</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00" class="negative">-3.85%</bg-quote></td>
+                        </tr>
+                         <tr class="table__row">
+                            <td class="table__cell w55 stock-negative"><a class="link" href="https://www.marketwatch.com/investing/stock/frc">First Republic Bank</a></td>
+                            <td class="table__cell w15"><bg-quote class="ignore-color" field="last" prefix="$" suffix="" format="0,0.00">$13.12</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="change" format="0,0.00" class="negative">-0.49</bg-quote></td>
+                            <td class="table__cell w15"><bg-quote field="percentchange" format="0,0.00" class="negative">-3.60%</bg-quote></td>
                         </tr>
                 </tbody>
             </table><table class="table table--secondary" role="presentation">

@@ -1,0 +1,358 @@
+<table class="table table--primary align--right">
+                        <tbody class="markets__group">
+
+
+            <tr onclick="this.querySelector('a').click();" class="table__row index is-closed is-active" is="bg-gavel" data-charting-symbol="INDEX/US/DOW JONES GLOBAL/DJIA">
+                <td class="table__cell">
+                    <bg-quote tick="100" class="negative" channel="/zigman2/quotes/210598065/realtime"><span class="indicator"></span></bg-quote>
+                </td>
+                <td class="table__cell symbol"><a data-track-code="MW_Header_Market Data_Quote Click_Dow Jones Industrial Average" href="https://www.marketwatch.com/investing/index/djia">Dow</a></td>
+                <td class="table__cell price">
+                    <bg-quote class="ignore-color" field="last" format="0,0.00" channel="/zigman2/quotes/210598065/realtime">33,886.47</bg-quote>
+                </td>
+                <td class="table__cell change">
+                    <bg-quote class="negative" field="change" format="0,0.00" channel="/zigman2/quotes/210598065/realtime">-143.22</bg-quote>
+                </td>
+                <td class="table__cell percent">
+                    <bg-quote class="negative" field="percentchange" format="0.00%" channel="/zigman2/quotes/210598065/realtime">-0.42%</bg-quote>
+                </td>
+                <td class="table__cell arrow">
+                    <bg-quote tick="100" class="negative" channel="/zigman2/quotes/210598065/realtime">
+                        <i class="icon"></i>
+                    </bg-quote>
+                </td>
+            </tr>
+            <tr onclick="this.querySelector('a').click();" class="table__row index is-closed" is="bg-gavel" data-charting-symbol="INDEX/US/S&amp;P US/SPX">
+                <td class="table__cell">
+                    <bg-quote tick="100" class="negative" channel="/zigman2/quotes/210599714/realtime"><span class="indicator"></span></bg-quote>
+                </td>
+                <td class="table__cell symbol"><a data-track-code="MW_Header_Market Data_Quote Click_S&amp;P 500 Index" href="https://www.marketwatch.com/investing/index/spx">S&amp;P 500</a></td>
+                <td class="table__cell price">
+                    <bg-quote class="ignore-color" field="last" format="0,0.00" channel="/zigman2/quotes/210599714/realtime">4,137.64</bg-quote>
+                </td>
+                <td class="table__cell change">
+                    <bg-quote class="negative" field="change" format="0,0.00" channel="/zigman2/quotes/210599714/realtime">-8.58</bg-quote>
+                </td>
+                <td class="table__cell percent">
+                    <bg-quote class="negative" field="percentchange" format="0.00%" channel="/zigman2/quotes/210599714/realtime">-0.21%</bg-quote>
+                </td>
+                <td class="table__cell arrow">
+                    <bg-quote tick="100" class="negative" channel="/zigman2/quotes/210599714/realtime">
+                        <i class="icon"></i>
+                    </bg-quote>
+                </td>
+            </tr>
+            <tr onclick="this.querySelector('a').click();" class="table__row index is-closed" is="bg-gavel" data-charting-symbol="INDEX/US/XNAS/COMP">
+                <td class="table__cell">
+                    <bg-quote tick="100" class="negative" channel="/zigman2/quotes/210598365/realtime"><span class="indicator"></span></bg-quote>
+                </td>
+                <td class="table__cell symbol"><a data-track-code="MW_Header_Market Data_Quote Click_NASDAQ Composite Index" href="https://www.marketwatch.com/investing/index/comp">Nasdaq</a></td>
+                <td class="table__cell price">
+                    <bg-quote class="ignore-color" field="last" format="0,0.00" channel="/zigman2/quotes/210598365/realtime">12,123.47</bg-quote>
+                </td>
+                <td class="table__cell change">
+                    <bg-quote class="negative" field="change" format="0,0.00" channel="/zigman2/quotes/210598365/realtime">-42.81</bg-quote>
+                </td>
+                <td class="table__cell percent">
+                    <bg-quote class="negative" field="percentchange" format="0.00%" channel="/zigman2/quotes/210598365/realtime">-0.35%</bg-quote>
+                </td>
+                <td class="table__cell arrow">
+                    <bg-quote tick="100" class="negative" channel="/zigman2/quotes/210598365/realtime">
+                        <i class="icon"></i>
+                    </bg-quote>
+                </td>
+            </tr>
+            <tr onclick="this.querySelector('a').click();" class="table__row index is-closed" is="bg-gavel" data-charting-symbol="INDEX/US/CBSX/VIX">
+                <td class="table__cell">
+                    <bg-quote tick="100" class="negative" channel="/zigman2/quotes/210598281/delayed"><span class="indicator"></span></bg-quote>
+                </td>
+                <td class="table__cell symbol"><a data-track-code="MW_Header_Market Data_Quote Click_CBOE Volatility Index" href="https://www.marketwatch.com/investing/index/vix">VIX</a></td>
+                <td class="table__cell price">
+                    <bg-quote class="ignore-color" field="last" format="0,0.00" channel="/zigman2/quotes/210598281/delayed">17.07</bg-quote>
+                </td>
+                <td class="table__cell change">
+                    <bg-quote class="negative" field="change" format="0,0.00" channel="/zigman2/quotes/210598281/delayed">-0.73</bg-quote>
+                </td>
+                <td class="table__cell percent">
+                    <bg-quote class="negative" field="percentchange" format="0.00%" channel="/zigman2/quotes/210598281/delayed">-4.10%</bg-quote>
+                </td>
+                <td class="table__cell arrow">
+                    <bg-quote tick="100" class="negative" channel="/zigman2/quotes/210598281/delayed">
+                        <i class="icon"></i>
+                    </bg-quote>
+                </td>
+            </tr>
+            <tr onclick="this.querySelector('a').click();" class="table__row index" is="bg-gavel" data-charting-symbol="FUTURE/US/XNYM/GC00">
+                <td class="table__cell">
+                    <bg-quote tick="100" class="positive" channel="/zigman2/quotes/210034565/delayed"><span class="indicator"></span></bg-quote>
+                </td>
+                <td class="table__cell symbol"><a data-track-code="MW_Header_Market Data_Quote Click_GOLD" href="https://www.marketwatch.com/investing/future/gold">Gold</a></td>
+                <td class="table__cell price">
+                    <bg-quote class="ignore-color" field="last" format="0,0.00" channel="/zigman2/quotes/210034565/delayed">2,017.50</bg-quote>
+                </td>
+                <td class="table__cell change">
+                    <bg-quote class="positive" field="change" format="0,0.00" channel="/zigman2/quotes/210034565/delayed">1.70</bg-quote>
+                </td>
+                <td class="table__cell percent">
+                    <bg-quote class="positive" field="percentchange" format="0.00%" channel="/zigman2/quotes/210034565/delayed">0.08%</bg-quote>
+                </td>
+                <td class="table__cell arrow">
+                    <bg-quote tick="100" class="positive" channel="/zigman2/quotes/210034565/delayed">
+                        <i class="icon"></i>
+                    </bg-quote>
+                </td>
+            </tr>
+            <tr onclick="this.querySelector('a').click();" class="table__row index" is="bg-gavel" data-charting-symbol="FUTURE/US/XNYM/CL.1">
+                <td class="table__cell">
+                    <bg-quote tick="100" class="positive" channel="/zigman2/quotes/211629951/delayed"><span class="indicator"></span></bg-quote>
+                </td>
+                <td class="table__cell symbol"><a data-track-code="MW_Header_Market Data_Quote Click_CRUDE OIL - ELECTRONIC" href="https://www.marketwatch.com/investing/future/crude%20oil%20-%20electronic">Oil</a></td>
+                <td class="table__cell price">
+                    <bg-quote class="ignore-color" field="last" format="0,0.00" channel="/zigman2/quotes/211629951/delayed">82.55</bg-quote>
+                </td>
+                <td class="table__cell change">
+                    <bg-quote class="positive" field="change" format="0,0.00" channel="/zigman2/quotes/211629951/delayed">0.03</bg-quote>
+                </td>
+                <td class="table__cell percent">
+                    <bg-quote class="positive" field="percentchange" format="0.00%" channel="/zigman2/quotes/211629951/delayed">0.04%</bg-quote>
+                </td>
+                <td class="table__cell arrow">
+                    <bg-quote tick="100" class="positive" channel="/zigman2/quotes/211629951/delayed">
+                        <i class="icon"></i>
+                    </bg-quote>
+                </td>
+            </tr>
+                        </tbody>
+                    </table><table class="table table--primary align--right">
+                    <thead>
+                        <tr class="table__row">
+                                <th class="table__heading">Previous Close</th>
+                        </tr>
+                    </thead>
+                    <tbody class="remove-last-border">
+                        <tr class="table__row">
+                            <td class="table__cell u-semi">3.520%</td>
+                        </tr>
+                    </tbody>
+                </table><table class="table table--secondary j-hidden j-table">
+            <thead>
+                <tr class="table__row">
+                    <th class="table__heading indicator"></th>
+                    <th class="table__heading w50 align--left">
+                        <div class="primary">Symbol</div>
+                        <small class="secondary">Company</small>
+                    </th>
+                    <th class="table__heading w45">
+                        <div class="primary">Price</div>
+                        <small class="secondary">Chg/Chg %</small>
+                    </th>
+                </tr>
+            </thead>
+            <tbody class="j-watchlist-list">
+                                    
+            </tbody>
+        </table><table class="table table--primary no-heading c2">
+            <tbody>
+                    <tr class="table__row">
+                        <td class="table__cell">5 Day</td>
+                        <td class="table__cell">
+                            <ul class="content u-flex positive">
+                                <li class="content__item value ignore-color">9.89</li>
+                                <li class="content__item bar">
+                                    <span class="graphic" style="width: 9.8900%;"></span>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__cell">1 Month</td>
+                        <td class="table__cell">
+                            <ul class="content u-flex positive">
+                                <li class="content__item value ignore-color">3.01</li>
+                                <li class="content__item bar">
+                                    <span class="graphic" style="width: 3.0100%;"></span>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__cell">3 Month</td>
+                        <td class="table__cell">
+                            <ul class="content u-flex positive">
+                                <li class="content__item value ignore-color">1.04</li>
+                                <li class="content__item bar">
+                                    <span class="graphic" style="width: 1.0400%;"></span>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__cell">YTD</td>
+                        <td class="table__cell">
+                            <ul class="content u-flex negative">
+                                <li class="content__item value ignore-color">-36.38</li>
+                                <li class="content__item bar">
+                                    <span class="graphic" style="width: 36.3800%;"></span>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__cell">1 Year</td>
+                        <td class="table__cell">
+                            <ul class="content u-flex positive">
+                                <li class="content__item value ignore-color">65.42</li>
+                                <li class="content__item bar">
+                                    <span class="graphic" style="width: 65.4200%;"></span>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+            </tbody>
+        </table><table class="table table--primary align--right">
+                <thead class="table__head">
+                    <tr class="table__row">
+                        <th class="table__heading">Name</th>
+                        <th class="table__heading">Price Change</th>
+                        <th class="table__heading">Yield</th>
+                    </tr>
+                </thead>
+                <tbody class="table__body">
+                            <tr class="table__row">
+                                <td class="table__cell"><a class="link" href="https://www.marketwatch.com/investing/bond/tmubmusd01m">U.S. 1 Month Treasury Bill</a></td>
+                                <td class="table__cell">0.0650</td>
+                                <td class="table__cell">4.0912%</td>
+                            </tr>
+                            <tr class="table__row">
+                                <td class="table__cell"><a class="link" href="https://www.marketwatch.com/investing/bond/tmubmusd03m">U.S. 3 Month Treasury Bill</a></td>
+                                <td class="table__cell">-0.0175</td>
+                                <td class="table__cell">5.0425%</td>
+                            </tr>
+                            <tr class="table__row">
+                                <td class="table__cell"><a class="link" href="https://www.marketwatch.com/investing/bond/tmubmusd06m">U.S. 6 Month Treasury Bill</a></td>
+                                <td class="table__cell">-0.0125</td>
+                                <td class="table__cell">5.0033%</td>
+                            </tr>
+                            <tr class="table__row">
+                                <td class="table__cell"><a class="link" href="https://www.marketwatch.com/investing/bond/tmubmusd01y">U.S. 1 Year Treasury Bill</a></td>
+                                <td class="table__cell">0.0000</td>
+                                <td class="table__cell">4.8461%</td>
+                            </tr>
+                            <tr class="table__row">
+                                <td class="table__cell"><a class="link" href="https://www.marketwatch.com/investing/bond/tmubmusd02y">U.S. 2 Year Treasury Note</a></td>
+                                <td class="table__cell">-0.0040</td>
+                                <td class="table__cell">4.1182%</td>
+                            </tr>
+                            <tr class="table__row">
+                                <td class="table__cell"><a class="link" href="https://www.marketwatch.com/investing/bond/tmubmusd03y">U.S. 3 Year Treasury Note</a></td>
+                                <td class="table__cell">0.0020</td>
+                                <td class="table__cell">3.8421%</td>
+                            </tr>
+                            <tr class="table__row">
+                                <td class="table__cell"><a class="link" href="https://www.marketwatch.com/investing/bond/tmubmusd05y">U.S. 5 Year Treasury Note</a></td>
+                                <td class="table__cell">0.0100</td>
+                                <td class="table__cell">3.6038%</td>
+                            </tr>
+                            <tr class="table__row">
+                                <td class="table__cell"><a class="link" href="https://www.marketwatch.com/investing/bond/tmubmusd07y">U.S. 7 Year Treasury Note</a></td>
+                                <td class="table__cell">0.0040</td>
+                                <td class="table__cell">3.5583%</td>
+                            </tr>
+                            <tr class="table__row">
+                                <td class="table__cell"><a class="link" href="https://www.marketwatch.com/investing/bond/tmubmusd30y">U.S. 30 Year Treasury Bond</a></td>
+                                <td class="table__cell">0.7200</td>
+                                <td class="table__cell">3.7326%</td>
+                            </tr>
+                </tbody>
+            </table><table class="table table--primary align--right">
+                <thead class="table__head">
+                    <tr class="table__row">
+                        <th class="table__heading">Name</th>
+                        <th class="table__heading">Price Change</th>
+                        <th class="table__heading">Yield</th>
+                    </tr>
+                </thead>
+                <tbody class="table__body">
+                            <tr class="table__row">
+                                <td class="table__cell"><a class="link" href="https://www.marketwatch.com/investing/bond/ldbmkph-10y">Philippines 10 Year Government Bond</a></td>
+                                <td class="table__cell">-0.5770</td>
+                                <td class="table__cell">6.2500%</td>
+                            </tr>
+                            <tr class="table__row">
+                                <td class="table__cell"><a class="link" href="https://www.marketwatch.com/investing/bond/tmbmkau-10y">Australia 10 Year Government Bond</a></td>
+                                <td class="table__cell">-0.4900</td>
+                                <td class="table__cell">3.3856%</td>
+                            </tr>
+                            <tr class="table__row">
+                                <td class="table__cell"><a class="link" href="https://www.marketwatch.com/investing/bond/ambmksg-10y">Singapore 10 Year Government Bond</a></td>
+                                <td class="table__cell">-0.2420</td>
+                                <td class="table__cell">2.8150%</td>
+                            </tr>
+                            <tr class="table__row">
+                                <td class="table__cell"><a class="link" href="https://www.marketwatch.com/investing/bond/tmbmkjp-10y">Japan 10 Year Government Bond</a></td>
+                                <td class="table__cell">-0.1800</td>
+                                <td class="table__cell">0.4808%</td>
+                            </tr>
+                            <tr class="table__row">
+                                <td class="table__cell"><a class="link" href="https://www.marketwatch.com/investing/bond/ambmkth-10y">Thailand 10 Year Government Bond</a></td>
+                                <td class="table__cell">0.1710</td>
+                                <td class="table__cell">2.4600%</td>
+                            </tr>
+                            <tr class="table__row">
+                                <td class="table__cell"><a class="link" href="https://www.marketwatch.com/investing/bond/ldbmkin-10y">India 10 Year Government Bond</a></td>
+                                <td class="table__cell">-0.1100</td>
+                                <td class="table__cell">7.2420%</td>
+                            </tr>
+                            <tr class="table__row">
+                                <td class="table__cell"><a class="link" href="https://www.marketwatch.com/investing/bond/tmbmkde-10y">Germany 10 Year Government Bond</a></td>
+                                <td class="table__cell">0.0000</td>
+                                <td class="table__cell">2.4398%</td>
+                            </tr>
+                            <tr class="table__row">
+                                <td class="table__cell"><a class="link" href="https://www.marketwatch.com/investing/bond/tmbmkfr-10y">France 10 Year Government Bond</a></td>
+                                <td class="table__cell">0.0000</td>
+                                <td class="table__cell">3.0044%</td>
+                            </tr>
+                            <tr class="table__row">
+                                <td class="table__cell"><a class="link" href="https://www.marketwatch.com/investing/bond/tmbmkgb-10y">U.K. 10 Year Gilt</a></td>
+                                <td class="table__cell">0.0000</td>
+                                <td class="table__cell">3.6638%</td>
+                            </tr>
+                            <tr class="table__row">
+                                <td class="table__cell"><a class="link" href="https://www.marketwatch.com/investing/bond/tmbmkes-10y">Spain 10 Year Government Bond</a></td>
+                                <td class="table__cell">0.0000</td>
+                                <td class="table__cell">3.4715%</td>
+                            </tr>
+                            <tr class="table__row">
+                                <td class="table__cell"><a class="link" href="https://www.marketwatch.com/investing/bond/tmbmkpt-10y">Portugal 10 Year Government Bond</a></td>
+                                <td class="table__cell">0.0000</td>
+                                <td class="table__cell">3.2918%</td>
+                            </tr>
+                            <tr class="table__row">
+                                <td class="table__cell"><a class="link" href="https://www.marketwatch.com/investing/bond/tmbmknl-10y">Netherlands 10 Year Government Bond</a></td>
+                                <td class="table__cell">0.0000</td>
+                                <td class="table__cell">2.8023%</td>
+                            </tr>
+                            <tr class="table__row">
+                                <td class="table__cell"><a class="link" href="https://www.marketwatch.com/investing/bond/tmbmkit-10y">Italy 10 Year Government Bond</a></td>
+                                <td class="table__cell">0.0000</td>
+                                <td class="table__cell">4.2886%</td>
+                            </tr>
+                            <tr class="table__row">
+                                <td class="table__cell"><a class="link" href="https://www.marketwatch.com/investing/bond/tmbmkbe-10y">Belgium 10 Year Government Bond</a></td>
+                                <td class="table__cell">0.0000</td>
+                                <td class="table__cell">3.1178%</td>
+                            </tr>
+                            <tr class="table__row">
+                                <td class="table__cell"><a class="link" href="https://www.marketwatch.com/investing/bond/tmbmkse-10y">Sweden 10 Year Government Bond</a></td>
+                                <td class="table__cell">0.0000</td>
+                                <td class="table__cell">2.3595%</td>
+                            </tr>
+                </tbody>
+            </table><table class="table table--secondary" role="presentation">
+          <tbody class="j-search-symbols">
+          </tbody>
+        </table><table class="table table--secondary" role="presentation">
+          <tbody class="j-search-privatecompanies">
+          </tbody>
+        </table>
