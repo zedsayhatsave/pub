@@ -8,6 +8,8 @@ WD=temp
 
 
 which_version_check() {
+ # https://github.com/actions/runner-images/blob/main/images/linux/Ubuntu2204-Readme.md
+ 
  which wget || true
  which curl || true
 
@@ -19,13 +21,15 @@ which_version_check() {
  #which chromedriver || true
  
  firefox --version
+ geckodriver -- versoin
  #which firefox || true
  #which firefoxdriver || true
- which geckodriver || true
+ #which geckodriver || true
  
  microsoft-edge --version
+ msedgedriver -- version
  #which microsoft-edge || true
- which msedgedriver  || true
+ #which msedgedriver  || true
  
  #which lynx || true
  #which links || true
@@ -33,6 +37,12 @@ which_version_check() {
  #which w3m || true
  
  python3 --version
+ 
+ 
+export CHROMEWEBDRIVER
+export EDGEWEBDRIVER
+export GECKOWEBDRIVER
+export SELENIUM_JAR_PATH
 }
 
 
@@ -74,7 +84,9 @@ work() {
  cd $WD
  echo $WD > report.txt
  
- chromium --headless=new --dump-dom --timeout 10000 
+ # chromium --headless=new --dump-dom --timeout 10000 <url> > page.html
+ 
+ python3 ../scripts/flow1.py || true
  
  cd ..
 }
