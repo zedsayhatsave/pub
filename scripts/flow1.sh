@@ -87,7 +87,8 @@ work() {
  echo $WD > report.txt
  
  # chromium --headless=new --dump-dom --timeout 10000 <url> > page.html
- 
+
+ python3 -m pip install selenium==4.8.3
  python3 ../${SCR_MV_DIR}/flow1.py || true
  
  cd ..
