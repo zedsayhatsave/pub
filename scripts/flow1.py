@@ -8,7 +8,7 @@ from selenium.webdriver.chrome.options import Options
 def chrome_driver_work():
     options = Options()
     options.binary_location = '/usr/bin/chromium'
-    options.headless = True
+    options.add_argument('--headless=new')  # '--headless'
     driver = webdriver.Chrome(options=options)  # executable_path='/path/to/chromedriver
 
     # base64.b64encode('<url>'.encode('utf-8')).decode()
