@@ -3,20 +3,30 @@
 set +x
 CUR_BR=draft0
 WORK_BR=draft1
-WD=$(date +%Y%m%d_%H%M%S)
+#WD=$(date +%Y%m%d_%H%M%S)
+WD=temp
 
 
-which_check() {
+which_version_check() {
  which wget || true
  which curl || true
- which chromium || true
- which chrome || true
- which goole-chrome || true
- which firefox || true
- which microsoft-edge || true
- which lynx || true
- which links || true
- which w3m || true
+
+ chromium --version
+ #which chromium || true
+ #which chrome || true
+ #which goole-chrome || true
+ 
+ firefox --version
+ #which firefox || true
+ 
+ microsoft-edge --version
+ #which microsoft-edge || true
+ 
+ #which lynx || true
+ #which links || true
+ #which links2 || true
+ #which w3m || true
+ 
  python3 --version
 }
 
@@ -55,7 +65,7 @@ git_sparse_checkout_work() {
 
 work() {
  echo WD: $WD
- mkdir $WD
+ mkdir $WD || true
  cd $WD
  echo $WD > report.txt
  cd ..
@@ -76,7 +86,7 @@ git_clean() {
 }
 
 
-which_check
+which_version_check
 git_config
 
 if true; then
