@@ -28,10 +28,17 @@ def wd_download(driver, url, output_file, remove_script=True):
         #element = driver.execute_script("return document.querySelector('h1')")
         #driver.execute_script("arguments[0].setAttribute('style', 'color: red')", element)
         driver.execute_script("""
-            var elements = document.querySelectorAll("script");
-            for (var i = 0; i < elements.length; i++) {
-                 elements[i].remove();
-            }
+            function remove_element(e) {
+                var elements = document.querySelectorAll(e);
+                for (var i = 0; i < elements.length; i++) {
+                    elements[i].remove();
+                }
+            }            
+            remove_element("script");
+            remove_element("link");
+            remove_element("meta");
+            remove_element("style");
+            
             """)
         
     with open(output_file, "w", encoding="utf-8") as f:
