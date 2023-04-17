@@ -12,18 +12,20 @@ which_version_check() {
  which curl || true
 
  chromium --version
+ chromedriver --version
  #which chromium || true
  #which chrome || true
  #which goole-chrome || true
- which chromedriver || true
+ #which chromedriver || true
  
  firefox --version
  #which firefox || true
- which firefoxdriver || true
+ #which firefoxdriver || true
+ which geckodriver || true
  
  microsoft-edge --version
  #which microsoft-edge || true
- which edgedriver || true
+ which msedgedriver  || true
  
  #which lynx || true
  #which links || true
