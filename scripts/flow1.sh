@@ -39,12 +39,12 @@ which_version_check() {
  #which w3m || true
  
  python3 --version
- pip3 list
+ # pip3 list
  
-export CHROMEWEBDRIVER
-export EDGEWEBDRIVER
-export GECKOWEBDRIVER
-export SELENIUM_JAR_PATH
+#export CHROMEWEBDRIVER
+#export EDGEWEBDRIVER
+#export GECKOWEBDRIVER
+#export SELENIUM_JAR_PATH
 }
 
 
@@ -88,7 +88,7 @@ work() {
  
  # chromium --headless=new --dump-dom --timeout 10000 <url> > page.html
 
- python3 -m pip install selenium==4.8.3
+ python3 -m pip --disable-pip-version-check install selenium==4.8.3 --quiet 
  python3 ../${SCR_MV_DIR}/flow1.py || true
  
  cd ..
