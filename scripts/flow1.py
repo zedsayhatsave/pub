@@ -37,11 +37,11 @@ def remove_element(driver, selectors):
     #driver.execute_script("arguments[0].setAttribute('style', 'color: red')", element)
     for selector in selectors:
         script = """
-            var elements = document.querySelectorAll("{selector}");
+            var elements = document.querySelectorAll("%s");
             for (var i = 0; i < elements.length; i++) {
                 elements[i].remove();
             }
-            """.format(selector=selector)
+            """ % selector
         driver.execute_script(script)
         
         
