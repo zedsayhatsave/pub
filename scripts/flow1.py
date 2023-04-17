@@ -12,13 +12,7 @@ def chrome_driver_work():
     driver = webdriver.Chrome(options=options)  # executable_path='/path/to/chromedriver
 
     # base64.b64encode('<url>'.encode('utf-8')).decode()
-    wd_download(driver, decode64('aHR0cHM6Ly93d3cubWFya2V0d2F0Y2guY29tL2ludmVzdGluZy9pbmRleC9kamlh'), 'mw_djia')    
-    wd_download(driver, decode64('aHR0cHM6Ly93d3cubWFya2V0d2F0Y2guY29tL2ludmVzdGluZy9pbmRleC9zcHg='), 'mw_spx')
-    wd_download(driver, decode64('aHR0cHM6Ly93d3cubWFya2V0d2F0Y2guY29tL2ludmVzdGluZy9pbmRleC9jb21w='), 'mw_comp')
-    wd_download(driver, decode64('aHR0cHM6Ly93d3cubWFya2V0d2F0Y2guY29tL2ludmVzdGluZy9ib25kL3RtdWJtdXNkMTB5P2NvdW50cnlDb2RlPUJY'), 'mw_us10y')
-    wd_download(driver, decode64('aHR0cHM6Ly93d3cubWFya2V0d2F0Y2guY29tL2Vjb25vbXktcG9saXRpY3MvY2FsZW5kYXI='), 'mw_ecocal')
-    wd_download(driver, decode64('aHR0cHM6Ly93d3cubWFya2V0d2F0Y2guY29tL2ludmVzdGluZy9mdXR1cmUvZ2MwMA=='), 'mw_gc')
-    wd_download(driver, decode64('aHR0cHM6Ly93d3cubWFya2V0d2F0Y2guY29tL2ludmVzdGluZy9mdXR1cmUvY2wuMQ=='), 'mw_cl')    
+    wd_download(driver, decode64('aHR0cHM6Ly93d3cubWFya2V0d2F0Y2guY29tLw=='), 'mw')    
 
     driver.quit()
 
