@@ -25,26 +25,24 @@ def wd_download(driver, url, output_file, remove_script=True):
     driver.get(url)
     
     if remove_script:
-        #element = driver.execute_script("return document.querySelector('h1')")
-        #driver.execute_script("arguments[0].setAttribute('style', 'color: red')", element)
-        driver.execute_script("""
-            function remove_element(e) {
-                var elements = document.querySelectorAll(e);
-                for (var i = 0; i < elements.length; i++) {
-                    elements[i].remove();
-                }
-            }            
-            remove_element("script");
-            remove_element("link");
-            remove_element("meta");
-            remove_element("style");
-            
-            """)
+        remove_element(driver, ['script', 'link', 'meta', 'style'])
         
     with open(output_file, "w", encoding="utf-8") as f:
         print(driver.page_source[:10240])
-        f.write(driver.page_source)        
+        f.write(driver.page_source)
 
 
+def remove_element(driver, selectors)
+    #element = driver.execute_script("return document.querySelector('h1')")
+    #driver.execute_script("arguments[0].setAttribute('style', 'color: red')", element)
+    for selector in selectors:
+        driver.execute_script("""
+            var elements = document.querySelectorAll("{selector}");
+            for (var i = 0; i < elements.length; i++) {
+                elements[i].remove();
+            }
+            """).format(selector=selector)
+        
+        
 if __name__ == '__main__':
     chrome_driver_work()
