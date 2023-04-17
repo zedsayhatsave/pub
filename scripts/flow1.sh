@@ -21,13 +21,13 @@ which_version_check() {
  #which chromedriver || true
  
  firefox --version
- geckodriver -- versoin
+ geckodriver --versoin
  #which firefox || true
  #which firefoxdriver || true
  #which geckodriver || true
  
  microsoft-edge --version
- msedgedriver -- version
+ msedgedriver --version
  #which microsoft-edge || true
  #which msedgedriver  || true
  
